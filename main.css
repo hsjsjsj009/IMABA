@@ -1,0 +1,337 @@
+@font-face{
+    font-family: 'Nunito';
+    src: url('https://fonts.googleapis.com/css?family=Nunito');
+}
+
+@font-face{
+    font-family: 'Rubik';
+    src: url('https://fonts.googleapis.com/css?family=Rubik');
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+nav .nav-item{
+    font-size: 14pt;
+}
+
+.active{
+    background-color: #FF5C6F;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+nav .navbar-brand{
+    font-size: 26pt;
+}
+
+.part1{
+    margin-top: 30px;
+}
+
+.test{
+    background:#FF5C6F center center no-repeat;
+    background-size: contain,cover; 
+}
+
+.asking{
+    font-family: 'Rubik',sans-serif;
+    font: medium;
+    font-weight:bold;
+    font-size: 20pt;
+    margin-bottom: 50px;
+}
+.first-page{
+    background: url("Asset/200ppi/Asset\ 2bg\ akademik.png") center center no-repeat;
+    background-size: cover,contain;
+    padding-top: 90px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+.first-page .opening{
+    padding-top:100px;
+}
+
+.first-page .person{
+    max-width: 700px;
+    max-height:535px;
+}
+h1{
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+h2{
+    font-family: 'Nunito',sans-serif;
+    font-weight: bold;
+}
+p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    font-size: 12pt;
+}
+
+.col-md {
+    padding :10px;
+}
+
+#part3 .col-md{
+    padding:none;
+    margin:none;
+}
+
+.fadein{
+    animation-name: fadein-slide    ;
+    animation-duration: 0.5s;
+}
+
+.fadein-swap{
+    animation-name: fadein;
+    animation-duration: 0.5s;
+}
+
+#part3 .list-group-item{
+    background: none;
+    border:none;
+    width:300px;
+}
+#part2 .col-md button img:hover, #first-page button img:hover{
+    background: #FFD4D9;
+    background-size: contain,cover;
+}
+
+.hoverBackgroundSI,
+.hoverBackgroundIlkom{
+    position:relative;
+    background: none;
+}
+
+
+.hoverBackgroundIlkom::after{
+    content:"";
+    position:absolute;
+    background: linear-gradient(90deg, #FFADB7 30%, transparent 70%);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top:0;
+    z-index: -1;
+    border:none;
+}
+
+.hoverBackgroundSI::after{
+    content:"";
+    position:absolute;
+    background: linear-gradient(90deg, #FFCCD2 30%, transparent 70%);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top:0;
+    z-index: -1;
+    border:none;
+}
+
+.hoverBackgroundIlkom,
+.hoverBackgroundSI,
+.hoverBackgroundIlkom::after,
+.hoverBackgroundSI::after{
+    background-size: 400%;
+    background-position: 100%;
+    transition: top 0.3s ease-in;
+    -o-transition:      0.3s ease-in;
+    -ms-transition:     0.3s ease-in;   
+    -moz-transition:    0.3s ease-in;
+    -webkit-transition: 0.3s ease-in;
+    border-radius: 10px;
+    border:none;
+}
+.hoverBackgroundIlkom:hover,
+.hoverBackgroundSI:hover,
+.hoverBackgroundIlkom:hover::after,
+.hoverBackgroundSI:hover::after{
+    background-position: 0;
+    border:none;
+}
+
+#part3 .list-group-item {
+    max-width: 300px;
+    height:auto;
+    margin:5px;
+}
+
+#part3 #swaped{
+    padding:20px; 
+    border-radius: 5px;
+}
+
+#part4 .list-group .list-group-item h2{
+    font-size:16pt;
+    margin:0px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+#part4 .list-group .list-group-item{
+    max-width:150px;
+    height:auto;
+    padding:0px;
+    padding-top: 5px;
+    margin:5px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+}
+
+#part4 .list-minat{
+    margin-top:0px;
+    border-radius: 5px;
+    padding:5px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+
+#part4 button{
+    background: none;
+    border:none;
+}
+
+#part6 .col-md p{
+    margin:5px;
+}
+
+#part7 a{
+    color: black;
+}
+
+#part4 .list-minat ul,#part7 ul{
+    list-style: none;
+    margin-left:0px;
+    padding-left: 20px;
+}
+
+#part4 .list-minat ul li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#part4 .list-minat{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#part7 h2{
+    font-size: 16pt;
+}
+
+
+@keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes fadein-slide{
+    from {opacity: 0;
+    position: relative;
+    left:1000px;}
+    to{opacity: 1;
+    position: relative;
+    left:0px;}
+}
+
+@media(max-width: 500px){
+    .first-page .person{
+        max-width: 300px;
+        height: auto;
+    }
+    body{
+        background: none;
+    }
+    .first-page{
+        background: #FFD4D9 center center no-repeat;
+        background-size: cover,contain;
+        padding-top :10px;
+        margin:none;
+        border: none;
+        padding:10px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    nav{
+        margin:none;
+        position : fixed;
+    }
+
+    .navbar-brand{
+        font-size: 20pt;
+    }
+
+    #part3 .row .col-md-5 h2{
+        font-size: 16pt;
+    }
+    .fadein{
+        animation-name: fadein;
+        animation-duration: 0.5s;
+    }
+    #part4 img{
+        max-width:300px; 
+        height:auto; 
+        margin:5px;
+    }
+    #part3 #swaped{
+        padding-top:20px; 
+        border-radius: 5px;
+        margin:5px;
+    }
+    #part3 .list-group-item {
+        margin:0px;
+        border:none;
+    }
+    #part3 .list-group{
+        padding-left: 0px;
+        margin:0px;
+    }
+    #part3 .col-md{
+        padding-left:5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+    }
+
+    #part6 img{
+        max-width:300px;
+        height: auto;
+    }
+
+    #part4 .gambar{
+        max-width: 300px;
+        height: auto;
+        align-content: center;
+    }
+
+    #part3 .list-group-item h2{
+        font-size:24px;
+    }
+
+    #part6 img{
+        max-width: 250px;
+        margin-left:5px;
+        margin-right:5px;
+        padding:0px;
+    }
+
+
+    
+
+
+
+}
+
+
+

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Akademik</title>
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="navbar">
+        <a class="navbar-brand" id="imaba" href="#">iMaba</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation" onclick="changeColorButton()"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" id=UI href="#">Info UI</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id=pacil href="#">Info Fasilkom</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id=info href="#">Informasi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" id=akademik href="#">Akademik</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="app">
+            <div class="container-fluid first-page fadein-swap" id="first-page">
+                    <div class="row">
+                        <div class="col opening">
+                            <h1>AKADEMIK</h1>
+                            <p>Kamu masih bingung dan penasaran bagaimana kegiatan pembelajaran di Fasilkom?</p>
+                            <p>Untuk menjawab rasa penasaran dan kebingungan kamu, yuk simak penjelasan singkat berikut!</p>
+                        </div>
+                        <div class="col">
+                                <img class="img-fluid person" src="Asset/200ppi/Asset 1people.png">
+                    </div>
+                </div>
+                <div class="text-center">
+                        <button class="text-center" style="background:none; border:none; height: 80px; width:auto;" onclick="scrollToPart1()">
+                            <img src="Asset/200ppi/Asset 5button arrow.png" style="height: 80px; width:auto; border-radius: 50%; transition: 0.5s">
+                        </button>
+                    </div>
+            </div>
+            <div>
+                <div class="container part1 fadein-swap" id="part1">
+                    <h1 class="text-center">Belajar Apa Saja di Fasilkom?</h1>
+                    <div class="row">
+                       <div class="col-md">
+                           <div class="text-center">
+                                <img src="Asset/200ppi/Asset 1komputer akademik.png" class="img-fluid" style="max-width: 200px; height:auto;">
+                                <h2 class="text-center" style="padding-top: 30px; padding-left: 20px;padding-bottom: 20px;">Programming</h2>
+                                <p> Dalam programming kita belajar berbagai macam bahasa pemrograman untuk menyusun algoritma yang dapat kita gunakan untuk mengembangkan sebuah program, aplikasi, atau software. Contoh mata kuliahnya, misalnya Dasar-Dasar Pemrograman 1 dimana kamu akan belajar salah satu bahasa pemrograman, yaitu Python.</p>
+                            </div>         
+                       </div>
+                       <div class="col-md">
+                            <div class="text-center">
+                                    <img src="Asset/200ppi/Asset 2integral.png" class="img-fluid" style="max-width: 200px; height:auto;">
+                                    <h2 class="text-center" style="padding-top: 30px; padding-left: 20px;padding-bottom: 20px;">Matematika</h2>
+                                    <p> Karena dalam programming memerlukan 
+                                            logika yang terlatih, maka kita di sini juga 
+                                            belajar matematika uàntuk melatih 
+                                            logika kita. Contoh mata kuliahnya, 
+                                            misalnya Matematika Dasar 1 dan 
+                                            Matematika Diskret 1.</p>
+                                </div> 
+                       </div> 
+                       <div class="col-md fadein-swap">
+                            <div class="text-center">
+                                    <img src="Asset/200ppi/Asset 3manajemen.png" class="img-fluid" style="max-height: 200px; width:auto;">
+                                    <h2 class="text-center" style="padding-top: 30px; padding-left: 20px;padding-bottom: 20px;">Manajemen</h2>
+                                    <p> Di Fasilkom, kita juga belajar manajemen 
+                                            agar kita dapat mengolah suatu ide 
+                                            bisnis untuk mengembangkan proyek.</p>
+                                </div> 
+                       </div>
+                    </div>
+                </div>
+            
+                <div class="container slide" id="part2">
+                    <div class="row">
+                    <div class="col-md">
+                        <img src="Asset/200ppi/Asset 4asking.png" style="max-width:300px; height:auto;" class="img-fluid">
+                    </div>
+                    <div class="col-md">
+                            <p class="asking">Jurusan di Fasilkom itu ada dua yaitu jurusan 
+                                    <br>Ilmu Komputer dan 
+                                    <br>Sistem Informasi.</p>
+                            <p class="asking">Apa sih perbedaannya?</p>
+                            <div class="text-center">
+                                <button  class="text-center arrow" style="background:none; border:none; height: 80px; width:auto;" onclick="showSlidesNext()" id="asking">
+                                    <img src="Asset/200ppi/Asset 5button arrow.png" style="height: 80px; width:auto; transform: rotate(270deg); border-radius:50%; transition: 0.5s">
+                                </button>
+                            </div>
+                    </div>
+                </div>
+                </div>
+                <div class="container slide fadein" id="part3">
+                        <h1 class="text-center" style="margin-top: 40px;">Perbedaan Ilmu Komputer<br>dengan Sistem Informasi</h1>
+                    <div class="row" style="padding-top: 30px;">
+                        <div class="col-md">
+                            <ul class="text-center list-group" id="switch-swap">
+                                <li class="list-group-item text-center" id="ilkom" style="border-radius:10px; background: none;" >
+                                    <button class="text-center" style="background:none; border:none; padding-top: 5px;" onclick="swapPerbedaanIlkom()"><h2 style="background:none;" class="text-center">Ilmu Komputer</h2></button>
+                                </li>
+                                <li class="list-group-item text-center" id ="SI" style="border-radius:10px; background: none;">
+                                    <button class="text-center" id="SI-button"  style="background:none; border:none; " onclick="swapPerbedaanSI()"><h2 class="text-center" style="background:none;">Sistem Informasi</h2></button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-7" id="swaped">
+                            <div class="swap fadein-swap">
+                                    <p>Dalam jurusan Ilmu Komputer, kita belajar 
+                                            pemanfaatan ilmu komputer, diantaranya desain 
+                                            algoritma dan implementasinya untuk 
+                                            mengembangkan perangkat lunak yang 
+                                            berkualitas hingga pemutakhiran aplikasi 
+                                            berbasis kecerdasan buatan, robotika, 
+                                            pengolahan informasi multimedia, keamanan 
+                                            informasi dan jaringan, serta pengolahan 
+                                            data besar.</p>
+                                        <p>Ilmu Komputer mencakup fondasi bidang komputasi, 
+                                            meliputi pemrograman, perancangan & analisis algoritma, 
+                                            arsitektur komputer, sistem operasi, jaringan komputer, 
+                                            teori komputasi, sistem cerdas, rekayasa perangkat lunak, 
+                                            analisis numerik, dan sebagainya.
+                                            </p>
+                            </div>
+                            <div class="swap fadein-swap">
+                                    <p>Dalam jurusan Sistem Informasi, kita menggabungkan 
+                                            konsep komputer dengan bisnis manajemen. 
+                                            Sistem Informasi berfokus pada pengembangan, 
+                                            pemanfaatan, dan pengelolaan 
+                                            Sistem Informasi/Teknologi Informasi d
+                                            alam suatu organisasi.</p>
+                                        <p>Sistem Informasi mencakup fondasi bidang bisnis, 
+                                            meliputi administrasi bisnis, 
+                                            prinsip-prinsip manajemen,  
+                                            sistem informasi, sistem informasi 
+                                            akuntansi dan keuangan, sistem-sistem 
+                                            perusahaan, arsitektur & pemrograman 
+                                            aplikasi perusahaan, dan sebagainya.
+                                            </p>    
+                             </div>   
+                        </div>  
+                    </div>
+                </div>
+                <div class="container" id="part4" style="margin-top: 30px;">
+                    <h1 class="text-center">Kurikulum</h1>
+                    <div class="row">
+                        <div class="col-md">
+                            <p>Fakultas Ilmu Komputer menawarkan berbagai mata kuliah terapan yang dapat 
+                                    digolongkan ke dalam beberapa peminatan, yaitu :</p>
+                                <ul class="list-group list-group-horizontal" style="margin-bottom: 20px;margin-top: 10px;">
+                                    <li class="list-group-item text-center" id="minat-ilkom-button" style="border:none; background: none;">
+                                        <button class="text-center" onclick="swapMinatIlkom()"><h2 class="text-center">Ilmu Komputer</h2></button>
+                                    </li>
+                                    <li class="list-group-item text-center" id="minat-SI-button" style="border:none; background: none;">
+                                        <button class="text-center" onclick="swapMinatSI()"><h2 class="text-center">Sistem Informasi</h2></button>
+                                    </li>
+                                </ul>
+                            <div class="list-minat" id="minat">
+                                <div class="minat fadein-swap">
+                                <ul>
+                                    <li>
+                                        <img src="Asset/200ppi/Asset 4buble list.png" style="height:10px; width:10px; margin-right:5px;" alt=""> Bidang Minat Kecerdasan Komputasional
+                                    </li>
+                                    <li>
+                                        <img src="Asset/200ppi/Asset 4buble list.png" style="height:10px; width:10px; margin-right:5px;" alt=""> Bidang Minat Teknologi Perangkat Lunak
+                                    </li>
+                                    <li>
+                                        <img src="Asset/200ppi/Asset 4buble list.png" style="height:10px; width:10px; margin-right:5px;" alt=""> Bidang Minat Pengelolahan Informasi
+                                    </li>
+                                    <li>
+                                        <img src="Asset/200ppi/Asset 4buble list.png" style="height:10px; width:10px; margin-right:5px;" alt=""> Bidang Minat Arsitektur dan Infrastruktur
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="minat fadein-swap">
+                                <ul>
+                                    <li>
+                                        <img src="Asset/200ppi/Asset 4buble list.png" style="height:10px; width:10px; margin-right:5px;" alt=""> Bidang Minat Teknologi Informasi
+                                    </li>
+                                    <li>
+                                        <img src="Asset/200ppi/Asset 4buble list.png" style="height:10px; width:10px; margin-right:5px;" alt=""> Bidang Minat Sistem Enterprise
+                                    </li>
+                                </ul>
+                            </div>
+                            </div>
+                            <p>Semua mata kuliah wajib UI, wajib rumpun, wajib fakultas, wajib program studi, 
+                                    pilihan bidang minat dan pilihan lain yang diambil harus disesuaikan sehingga 
+                                    jumlah minimum total SKS menjadi 144 sks.</p>
+                            <p>Nah, untuk gambaran awal, di bawah ini bisa disimak mata kuliah apa saja yang 
+                                    akan kamu pelajari selama semester 1 dan semester 2!</p>
+                        </div>
+                        <div class="col-md" id="gambar-part4">
+                            <img class="text-center img-fluid" src="Asset/200ppi/Asset 1part 4 image.png">
+                        </div>
+                    </div>
+                </div>
+                <div id="part5" class="container">
+                    <h1 class="text-center">Mata Kuliah</h1>
+                </div>
+                <div id="part6" class="container">
+                    <h1 class="text-center">Penggunaan E-Learning SCELE</h1>
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img class="img-fluid" style="max-width: 400px; height: auto;" src='Asset/200ppi/Asset 2part 6 image.png'>
+                        </div>
+                        <div class="col-md">
+                            <p>Kegiatan pembelajaran di Fasilkom menggunakan 
+                                    Student Centered E-Learning Environment atau disingkat 
+                                    dengan SCELE. </p>
+                            <p>Untuk SCELE sendiri ada dua macam, yaitu SCELE UI dan 
+                                    SCELE Fasilkom.</p>
+                            <p>Nah di SCELE Fasilkom, semua materi perkuliahan kecuali 
+                                    mata kuliah wajib universitas dapat kita lihat di sini 
+                                    sedangkan untuk SCELE UI, kita gunakan untuk mata kuliah 
+                                    MPKT B . Kamu bisa mengakses SCELE Fasilkom melalui <a style="color:#FF5C6F" href="">https://scele.cs.ui.ac.id/</a> dan untuk tutorial penggunaannya 
+                                    sendiri dapat kamu lihat melalui : <br><br>
+                            <a style="color:#FF5C6F; width:auto;" href="https://scele.cs.ui.ac.id/static/tutorial/tutorial_mahasiswa.pdf">Click Disini!!</a> 
+                             <br><br>     Untuk SCELE UI, kamu bisa akses melalui <a style="color:#FF5C6F;" href="https://scele.ui.ac.id/">https://scele.ui.ac.id/</a>  
+                                    dan untuk panduan penggunaannya dapat kamu akses 
+                                    melalui:
+
+                                    <br><br><a style="color:#FF5C6F; width:auto;" href="https://drive.google.com/file/d/0BwbADLEbKNsBY01rUT
+                                    c1VzJocWc/view">Click Disini!</a> 
+
+                            <br><br> Tenang aja, nanti kamu juga akan diajari 
+                                    cara penggunaan SCELE saat kamu masuk kuliah nanti.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="part7" class="container">
+                    <h1 class="text-center">Yuk Mulai Belajar Ngoding!</h1>
+                    <div class="row justify-content-center">
+                        <img class="img-fluid mx-auto" src="Asset/200ppi/Asset 3part 7 image.png" style="width: auto; height: 300px">
+                        <p class="text-center">Buat kamu yang belom pernah ngoding sebelumnya atau kamu mau latihan ngoding, berikut beberapa website yang bisa kamu pakai untuk belajar ngoding:</p>
+                        <div class="col-sm-4 text-center">
+                            <h2>Untuk Belajar Ngoding</h2>
+                            <ul>
+                                <li>
+                                    <a href="https://www.w3schools.com/">W3School</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.codecademy.com/">CodeAcademy</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.sololearn.com/">SoloLearn</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 text-center">
+                            <h2>Untuk Latihan Ngoding</h2>
+                            <ul>
+                                <li>
+                                    <a href="https://codingbat.com/java">CodingBat</a>
+                                </li>
+                                <li>
+                                    <a href="https://snakify.org/en/">Snakify</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type='text/javascript' src="Main.js"></script>
+
+</body>
+</html>
