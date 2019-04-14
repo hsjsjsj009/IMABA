@@ -91,9 +91,6 @@
             off=true;
         }
     }
-    function scrollToPart1(){
-        window.scrollTo(0,680);
-    }
     function changeColor() {
         if (document.documentElement.scrollTop > 50) {
         document.getElementById("navbar").style.backgroundColor = "#FF5C6F";
