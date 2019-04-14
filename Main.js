@@ -6,6 +6,7 @@
         slideIndex=1;
         if(document.getElementById("part2").style.display == "none"){
             swapPerbedaanIlkom();
+            document.getElementById('part3').scrollIntoView();
     }
     }
     swapMinatIlkom();
