@@ -200,7 +200,6 @@ p{
     border-radius: 5px;
     padding:5px;
     padding-top: 15px;
-    margin-bottom: 20px;
 }
 
 #part4 button{
@@ -299,7 +298,6 @@ p{
     #part3 #swaped{
         padding-top:20px; 
         border-radius: 5px;
-        margin:5px;
     }
     #part3 .list-group-item {
         margin:0px;
