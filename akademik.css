@@ -84,12 +84,12 @@ p{
 
 .fadein{
     animation-name: fadein-slide    ;
-    animation-duration: 0.5s;
+    animation-duration: 1s;
 }
 
 .fadein-swap{
     animation-name: fadein;
-    animation-duration: 0.5s;
+    animation-duration: 1s;
 }
 
 #part3 .list-group-item{
