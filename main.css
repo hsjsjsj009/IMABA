@@ -9,26 +9,41 @@
 }
 html{
     scroll-behavior: smooth;
+    padding:0px;
+    margin:0px;
 }
 nav{
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
     transition: 0.5s;
+    padding:0px;
+    margin:0px;
+}
+.app{
+    padding: 0px;
+    margin:0px;
 }
 
 nav .nav-item{
     font-size: 14pt;
+    padding:5px;
+    margin:0px;
 }
+
+
 
 .active{
     background-color: #FF5C6F;
     border-radius: 10px;
     font-weight: bold;
     font-size: 16pt;
+    margin:0px;
 }
+
 
 nav .navbar-brand{
     font-size: 26pt;
+    padding:0px;
 }
 
 .part1{
@@ -329,6 +344,7 @@ p{
         margin-right:5px;
         padding:0px;
     }
+    
 
 
     
