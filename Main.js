@@ -83,10 +83,15 @@
     window.onscroll = function() {changeColor()};
     var off=true;
     function changeColorButton(){
-        if(document.documentElement.scrollTop < 50 && off){
+        if(off){
             document.getElementById("navbar").style.backgroundColor = "#FF5C6F";
             off=false;
-        }else if(document.documentElement.scrollTop < 50 && !off){
+        }
+        else if(document.documentElement.scrollTop > 50 && !off){
+            document.getElementById("navbar").style.backgroundColor = "#FF5C6F";
+            off=true;
+        }
+        else if(document.documentElement.scrollTop < 50 && !off){
             document.getElementById("navbar").style.backgroundColor = "";
             off=true;
         }
@@ -94,7 +99,8 @@
     function changeColor() {
         if (document.documentElement.scrollTop > 50) {
         document.getElementById("navbar").style.backgroundColor = "#FF5C6F";
-        } else if (document.documentElement.scrollTop < 50){
+        } else if (document.documentElement.scrollTop < 50 && off){
         document.getElementById("navbar").style.backgroundColor = "";
         }
+        
     }
