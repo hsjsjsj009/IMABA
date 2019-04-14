@@ -1,3 +1,88 @@
-footer{
-    background: url("Asset/Landing/200ppi/Asset\ 1bg.png") center center no-repeat;
+@font-face{
+    font-family: 'Nunito';
+    src: url('https://fonts.googleapis.com/css?family=Nunito');
+}
+
+@font-face{
+    font-family: 'Rubik';
+    src: url('https://fonts.googleapis.com/css?family=Rubik');
+}
+
+
+body{
+    background: url("Asset/Landing/200ppi/Asset\ 4bg\ 4.png") fixed no-repeat;
+    background-size: 100% 37%;
+    background-position: bottom;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1{
+    font-weight: bold;
+}
+h2{
+    font-weight: normal;
+}
+
+.navbar-brand{
+    font-size: 26pt;
+    font-weight: bold;
+}
+
+.list-group-item h2{
+    font-weight: bold;
+}
+
+
+.list-group-item{
+    border:none;
+}
+.icon{
+    max-height: 300px;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.icon img{
+    max-width: 300px;
+    border:none;
+    margin:0px;
+    padding:0px;
+}
+
+.list-group{
+    padding: 0px;
+    margin: 0px;
+    max-width: 300px;
+    border-radius: 5px;
+    background-color: white;
+    transition:0.5s ease-in-out;
+}
+#landing button{
+    border:none;
+    width:auto;
+    height: auto;
+    background: none;
+}
+
+#landing a{
+    font-style: none;
+    color: black;
+    text-decoration: none;
+}
+
+#landing .list-group-item{
+    background: none;
+}
+
+#landing .list-group:hover{
+    position: relative;
+    color:white;
+    bottom:20px;
+    background-color: black;
+}
+@media(max-width: 900px){
+    body{
+        background: #F7F7F7;
+        background-size: cover;
+    }
 }
