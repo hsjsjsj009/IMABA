@@ -46,10 +46,6 @@ nav .navbar-brand{
     padding:0px;
 }
 
-.part1{
-    margin-top: 30px;
-}
-
 .test{
     background:#FF5C6F center center no-repeat;
     background-size: contain,cover; 
@@ -66,8 +62,6 @@ nav .navbar-brand{
     background: url("Asset/200ppi/Asset\ 2bg\ akademik.png") center center no-repeat;
     background-size: cover,contain;
     padding-top: 90px;
-    padding-right: 100px;
-    padding-left: 100px;
     padding-bottom: 50px;
 }
 .first-page .opening{
@@ -280,8 +274,6 @@ p{
         margin:none;
         border: none;
         padding:10px;
-        margin-right: 0px;
-        margin-left: 0px;
     }
     nav{
         margin:none;
