@@ -85,8 +85,9 @@ h2{
     color:white;
     bottom:20px;
     background-color: black;
-    border:grey solid 5px;
+    border:grey solid 3px;
     border-radius: 10px;
+    overflow: hidden;
 }
 @media(max-width: 900px){
     body{
