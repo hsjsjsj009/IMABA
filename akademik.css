@@ -12,23 +12,6 @@ html{
     padding:0px;
     margin:0px;
 }
-nav{
-    font-family: 'Rubik', sans-serif;
-    font-weight: bold;
-    transition: 0.5s;
-    padding:0px;
-    margin:0px;
-}
-
-nav .navbar-brand{
-    font-size: 26pt;
-    padding:0px;
-}
-nav .nav-item{
-    font-size: 14pt;
-    padding:5px;
-    margin:0px;
-}
 
 .active{
     background-color: #FF5C6F;
@@ -97,7 +80,7 @@ p{
     border:none;
     width:300px;
 }
-#part2 .col-md button img:hover, #first-page button img:hover{
+#part2 .col-md button img:hover, #first-page #start img:hover{
     background: #FFD4D9;
     background-size: contain,cover;
 }
