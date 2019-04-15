@@ -8,6 +8,10 @@
     src: url('https://fonts.googleapis.com/css?family=Rubik');
 }
 
+html{
+    position: relative;
+    min-height: 100%;
+}
 
 body{
     background: url("Asset/Landing/200ppi/Asset\ 4bg\ 4.png") fixed no-repeat;
@@ -79,18 +83,52 @@ h2{
     background: none;
 }
 
-#landing .list-group:hover{
+#landing #akademik-a:hover{
     position: relative;
     color:white;
     bottom:20px;
-    background-color: black;
-    border:grey solid 3px;
+    background-color: #F88886;
     border-radius: 10px;
     overflow: hidden;
 }
+
+#landing #kampus-a:hover{
+    position: relative;
+    color:white;
+    bottom:20px;
+    background-color: #FFA300;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#landing #fasilkom-a:hover{
+    position: relative;
+    color:white;
+    bottom:20px;
+    background-color: #5DA2D5;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#landing #informasi-a:hover{
+    position: relative;
+    color:white;
+    bottom:20px;
+    background-color: #39BC6E;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+body{
+    margin-bottom: 60px;
+}
+
 @media(max-width: 900px){
     body{
         background: #F7F7F7;
         background-size: cover;
+    }
+
+    #landing .container-fluid h2{
+        font-size:16pt;
     }
 }

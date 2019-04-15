@@ -244,14 +244,6 @@ p{
         border: none;
         padding:10px;
     }
-    nav{
-        margin:none;
-        position : fixed;
-    }
-
-    .navbar-brand{
-        font-size: 20pt;
-    }
 
     #part3 .row .col-md-5 h2{
         font-size: 16pt;
