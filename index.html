@@ -9,9 +9,11 @@
     <title>iMaba</title>
 </head>
 <body>
-<nav class="navbar fixed-top navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="#">iMaba</a>
-    </div>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light" id="navbar">
+        <div class="container-fluid">
+                <a class="navbar-brand" href="#" id="brand">iMaba</a>
+        </div>
+            
 </nav>
 <div id="landing" class="container-fluid my-0 mx-auto">
         <h1 class="text-center mt-5 mb-1 pt-5 mx-auto">Selamat Datang,</h1>
@@ -22,7 +24,7 @@
                     <a href="akademik.html" id="akademik-a" onmouseover="hover(this)" onmouseout="Unhover(this)">
                     <ul class="list-group mx-0">
                         <li class="list-group-item py-0 px-0 icon">
-                            <img src="Asset/Landing/300ppi/Artboard 5icon1.png" class="p-0 mx-0">
+                            <img src="Asset/Landing/300ppi/Artboard 5icon1.png" class="p-0 mx-0 rounded-top">
                         </li>
                         <li class="list-group-item py-4" id="akademik">
                             <div class="text-center">
@@ -36,7 +38,7 @@
                     <a href="#" id="kampus-a">
                         <ul class="list-group mx-0">
                                 <li class="list-group-item py-0 px-0 icon" >
-                                        <img src="Asset/Landing/200ppi/Asset 6icon 2.jpg" class="p-0 mx-0">
+                                        <img src="Asset/Landing/200ppi/Asset 6icon 2.jpg" class="p-0 mx-0 rounded-top">
                                 </li>
                                 <li class="list-group-item py-4" id="kampus">
                                     <div class="text-center">
@@ -50,7 +52,7 @@
                     <a href="#" id="fasilkom-a">    
                     <ul class="list-group mx-0">
                                 <li class="list-group-item py-0 px-0 icon">
-                                        <img src="Asset/Landing/200ppi/Asset 7icon 3.jpg" class="p-0 mx-0">
+                                        <img src="Asset/Landing/200ppi/Asset 7icon 3.jpg" class="p-0 mx-0 rounded-top">
                                 </li>
                                 <li class="list-group-item py-4" id="fasilkom">
                                     <div class="text-center">
@@ -65,7 +67,7 @@
                     <a href="#" id="informasi-a">    
                     <ul class="list-group mx-0">
                                 <li class="list-group-item icon">
-                                    <img src="Asset/Landing/200ppi/Asset 8icon 4.jpg" class="p-0 mx-0">
+                                    <img src="Asset/Landing/200ppi/Asset 8icon 4.jpg" class="p-0 mx-0 rounded-top">
                                 </li>
                                 <li class="list-group-item py-4" id="informasi">
                                     <div class="text-center">
@@ -81,19 +83,22 @@
 </div>
 <footer class="mb-0 container-fluid mx-auto">
         <h6 style="background:#F7F7F7 center center no-repeat; background-size:contain" class="text-center py-3 mb-0 fixed-bottom">Created by <b>MEDIA BEM FASILKOM UI</b></h6>
-</footer> 
+</footer>
+<script
+  src="https://code.jquery.com/jquery-3.4.0.js"
+  integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script>
-        function hover(n){
-            var n_child = document.getElementById(n.id).children;
-            n_child = n_child[0].children;
-            document.getElementById(n_child[1].id).style.backgroundColor="black";
+        window.onscroll = function() {changePosition()};
+        function changePosition(){
+            if (document.documentElement.scrollTop > 50) {
+        document.getElementById("navbar").style.backgroundColor = "#DBDBDB";
+        } else if (document.documentElement.scrollTop < 50){
+        document.getElementById("navbar").style.backgroundColor = "";
         }
-        function Unhover(n){
-            var n_child = document.getElementById(n.id).children;
-            n_child = n_child[0].children;
-            n_child[1].style.backgroundColor = "";
         }
-
     </script>
 </body>
 </html>

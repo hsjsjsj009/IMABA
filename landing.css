@@ -22,10 +22,15 @@ h1{
 h2{
     font-weight: normal;
 }
+.navbar{
+    transition: 0.5s ease-in-out;
+}
+
 
 .navbar-brand{
     font-size: 26pt;
     font-weight: bold;
+    display:block;
 }
 
 .list-group-item h2{
@@ -47,6 +52,7 @@ h2{
     border:none;
     margin:0px;
     padding:0px;
+    overflow: hidden;
 }
 
 .list-group{
@@ -79,6 +85,8 @@ h2{
     color:white;
     bottom:20px;
     background-color: black;
+    border:grey solid 5px;
+    border-radius: 10px;
 }
 @media(max-width: 900px){
     body{
