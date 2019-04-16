@@ -131,4 +131,14 @@ body{
     #landing .container-fluid h2{
         font-size:16pt;
     }
+
+    #landing .container-fluid{
+        max-width: 450px;
+    }
+}
+
+@media(max-width:500px){
+    #landing .container-fluid{
+        max-width: 100%;
+    }
 }

@@ -53,11 +53,7 @@ h2{
 p{
     font-family: 'Nunito', sans-serif;
     font-weight: normal;
-    font-size: 12pt;
-}
-
-.col-md {
-    padding :10px;
+    font-size: 14pt;
 }
 
 #part3 .col-md{
@@ -229,6 +225,11 @@ p{
 }
 
 @media(max-width: 500px){
+    p{
+        font-family: 'Nunito', sans-serif;
+        font-weight: normal;
+        font-size: 12pt;
+    }
     .first-page .person{
         max-width: 300px;
         height: auto;
