@@ -8,6 +8,12 @@
     src: url('https://fonts.googleapis.com/css?family=Rubik');
 }
 
+html{
+    scroll-behavior: smooth;
+    padding:0px;
+    margin:0px;
+}
+
 .first-page{
     background: url("Asset/Info\ Ui/200ppi/Asset\ 2bg.jpg") center center no-repeat;
     background-size: cover,contain;
@@ -33,7 +39,7 @@ h2,h3{
 p{
     font-family: 'Nunito', sans-serif;
     font-weight: normal;
-    font-size: 12pt;
+    font-size: 14pt;
 }
 .active{
     background-color: #FFA300;
@@ -59,6 +65,10 @@ p{
     to{
         opacity: 1;
     }
+}
+
+#part5 img,#part6 img{
+    max-width: 500px;
 }
 
 @keyframes fadein-slide{
@@ -101,5 +111,16 @@ p{
 
     .legenda-col{
         margin-top: 5%;
+    }
+
+    p{
+        font-size: 12pt;
+    }
+
+    #part2 img{
+        max-width:300px;
+    }
+    #part5 img,#part6 img{
+        max-width: 300px;
     }
 }
