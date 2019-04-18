@@ -79,6 +79,13 @@ h2{
     text-decoration: none;
 }
 
+#landing ul{
+    animation: down;
+    animation-duration: 0.5s;
+    position: relative;
+    bottom:0px;
+}
+
 #landing .list-group-item{
     background: none;
 }
@@ -86,6 +93,8 @@ h2{
 #landing #akademik-a:hover{
     position: relative;
     color:white;
+    animation: up;
+    animation-duration: 0.5s;
     bottom:20px;
     background-color: #F88886;
     border-radius: 10px;
@@ -95,6 +104,8 @@ h2{
 #landing #kampus-a:hover{
     position: relative;
     color:white;
+    animation: up;
+    animation-duration: 0.5s;
     bottom:20px;
     background-color: #FFA300;
     border-radius: 10px;
@@ -104,6 +115,8 @@ h2{
 #landing #fasilkom-a:hover{
     position: relative;
     color:white;
+    animation: up;
+    animation-duration: 0.5s;
     bottom:20px;
     background-color: #5DA2D5;
     border-radius: 10px;
@@ -112,6 +125,8 @@ h2{
 #landing #informasi-a:hover{
     position: relative;
     color:white;
+    animation: up;
+    animation-duration: 0.5s;
     bottom:20px;
     background-color: #39BC6E;
     border-radius: 10px;
@@ -120,6 +135,24 @@ h2{
 
 body{
     margin-bottom: 60px;
+}
+
+@keyframes up{
+    from{
+        bottom:0px;
+    }
+    to{
+        bottom:20px;
+    }
+}
+
+@keyframes down{
+    from{
+        bottom:20px;
+    }
+    to{
+        bottom:0px;
+    }
 }
 
 @media(max-width: 900px){
@@ -140,5 +173,9 @@ body{
 @media(max-width:500px){
     #landing .container-fluid{
         max-width: 100%;
+    }
+
+    #landing ul,#landing ul:hover{
+        animation: none;
     }
 }

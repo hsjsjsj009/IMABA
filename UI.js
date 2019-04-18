@@ -1,6 +1,5 @@
 var clicked = false;
-function changeMap(n){
-    var child = n.children;
+function changeMap(){
     if(!clicked){
         showSlides(slideIndex++,"swap");
         slideIndex=1
