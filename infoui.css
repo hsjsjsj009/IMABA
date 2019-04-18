@@ -33,19 +33,32 @@ h1{
     font-weight: bold;
 }
 h2,h3{
-    font-family: 'Nunito',sans-serif;
+    font-family: 'Nunito SemiBold',sans-serif;
     font-weight: bold;
 }
+
+#part1,
+#part2,
+#part3,
+#part4,
+#part5{
+    padding-bottom:50px;
+    border-bottom: #c4c4c4 solid 1px;
+}
+
 p{
     font-family: 'Nunito', sans-serif;
     font-weight: normal;
     font-size: 14pt;
 }
+button:focus,button:active{
+    outline: none !important;
+}
 .active{
     background-color: #FFA300;
     border-radius: 10px;
     font-weight: bold;
-    font-size: 16pt;
+    font-size: 12pt;
     margin:0px;
 }
 
