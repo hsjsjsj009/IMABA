@@ -11,8 +11,6 @@ function changeMap(){
         clicked=false;
     }
 }
-
-
 var slideIndex = 1;
 
 showSlides(1,"swap");
