@@ -142,7 +142,7 @@ button:focus,button:active{
     }
 }
 
-@media(max-width:400px){
+@media(max-width:330px){
     .swap{
         max-width: 250px;
     }
