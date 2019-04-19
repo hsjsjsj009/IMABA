@@ -221,6 +221,10 @@ p{
     padding-bottom: 100px;
 }
 
+#minat img,#minat p{
+    display: inline;
+}
+
 
 @keyframes fadein{
     from{
@@ -292,6 +296,11 @@ p{
         padding-bottom: 5px;
     }
 
+    #part2 img{
+        max-width: 300px;
+        max-height: none;
+    }
+
     #part6 img{
         max-width:300px;
         height: auto;
@@ -304,22 +313,27 @@ p{
     }
 
     #part3 .list-group-item h2{
-        font-size:24px;
+        font-size:20px;
+    }
+    
+
+
+    
+
+
+
+}
+
+@media(max-width:330px){
+    .first-page .person{
+        max-width: 250px;
+        height: auto;
     }
 
     #part6 img{
         max-width: 250px;
-        margin-left:5px;
-        margin-right:5px;
-        padding:0px;
+        height: auto;
     }
-    
-
-
-    
-
-
-
 }
 
 

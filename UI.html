@@ -7,6 +7,26 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="infoui.css">
     <link rel="stylesheet" href="navbar.css">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="Asset/Icon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="Asset/Icon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="Asset/Icon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="Asset/Icon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="Asset/Icon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="Asset/Icon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="Asset/Icon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="Asset/Icon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="Asset/Icon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="Asset/Icon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="Asset/Icon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="Asset/Icon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="Asset/Icon/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="Asset/Icon/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="Asset/Icon/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="Asset/Icon/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="Asset/Icon/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="Asset/Icon/mstile-310x310.png" />
     <title>Info Kampus</title>
 </head>
 <body>
@@ -60,8 +80,16 @@
         <div id="part1" class="container my-5 py-5 mx-auto">
             <div class="text-center mt-5">
                     <h1 class="text-center mb-3">Peta UI</h1>
-                    <button onclick="changeMap()" style="background-color: #FFB738; transition: 1s ease-in-out;"class="rounded-pill border-0" id="button"><h3 id="button-map" class="fadein py-0 mt-2 px-3 text-center swap-text">Lihat Transportasi</h2>
-                        <h3 id="button-map" style="display: none;" class="fadein py-0 mt-2 px-3 text-center swap-text">Lihat UI</h2></button>
+                    <div class="text-center mr-4">
+                        <ul style="border:none;">
+                            <li class="line text-center mx-auto">
+                                <button onclick="changeMap(this)" style="background:none;  transition: 0.5s;"class="rounded-pill border-0 button mx-0 px-0" id="button1"><h3 id="button-map" class="py-0 mt-2 px-3 text-center">Transportasi</h3></button>
+                            </li>
+                            <li class="line text-center mx-auto">
+                                <button onclick="changeMap(this)" style="background:#FFB738; transition: 0.5s;"class="rounded-pill border-0 button mx-0  px-0" id="button2"><h3 id="button-map" class="py-0 mt-2 px-3 text-center">UI</h3></button>
+                            </li>
+                        </ul>
+                    </div>
                     <div class="row my-5">
                         <div class="col-md-5 mx-auto py-4 my-auto">
                             <img src="Asset/Info Ui/200ppi/PETA UI.png" alt="" class="img-fluid swap fadein-slide" style="max-height: 500px;">
@@ -115,7 +143,7 @@
                         <div class="text-center">
                                 <img src="Asset/Info Ui/200ppi/TRAIN.png" alt="" class="my-2 mx-auto" style="max-height: 150px;">
                         </div>  
-                            <h3 class="text-center my-2"><b>Motor</b></h3>
+                            <h3 class="text-center my-2"><b>Kereta</b></h3>
                             <p class="text-justify">
                                     Buat kamu yang mau pulang pergi dari rumah, kamu bisa naik KRL dan turun di Stasiun Universitas Indonesia ataupun di stasiun Pondok Cina. Karena letak Fasilkom sudah di tengah-tengah UI, jarak Fasilkom dari kedua stasiun tersebut sudah tidak terlalu jauh.
                             </p>

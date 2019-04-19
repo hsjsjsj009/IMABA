@@ -1,20 +1,23 @@
-var clicked = false;
-function changeMap(){
-    if(!clicked){
+var clicked1=false;
+var clicked2=false;
+function changeMap(n){
+    if((n.id == "button1") && !clicked1){
         showSlides(slideIndex++,"swap");
-        slideIndex=1
-        showSlides(slideIndex++,"swap-text");
-        clicked=true;
-    }else{
+        n.style.backgroundColor = "#FFB738";
+        document.getElementsByClassName("button")[1].style.background="none";
+        clicked1=true;
+        clicked2=false;
+    }else if((n.id == "button2") && !clicked2){
         showSlides(slideIndex=1,"swap");
-        showSlides(slideIndex = 1,"swap-text");
-        clicked=false;
+        n.style.backgroundColor = "#FFB738";
+        document.getElementsByClassName("button")[0].style.background="none";
+        clicked1=false;
+        clicked2=true;
     }
 }
 var slideIndex = 1;
 
 showSlides(1,"swap");
-showSlides(1,"swap-text");
 function showSlides(n,clas) {
     var i;
     var slides = document.getElementsByClassName(clas);

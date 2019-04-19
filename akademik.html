@@ -7,6 +7,26 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="akademik.css">
     <link rel="stylesheet" href="navbar.css">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="Asset/Icon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="Asset/Icon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="Asset/Icon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="Asset/Icon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="Asset/Icon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="Asset/Icon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="Asset/Icon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="Asset/Icon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="Asset/Icon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="Asset/Icon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="Asset/Icon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="Asset/Icon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="Asset/Icon/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="Asset/Icon/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="Asset/Icon/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="Asset/Icon/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="Asset/Icon/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="Asset/Icon/mstile-310x310.png" />
     <title>Akademik</title>
 </head>
 <body>
@@ -85,8 +105,8 @@
             
                 <div class="container slide mb-5 mx-auto" id="part2">
                     <div class="row">
-                    <div class="col-md">
-                        <img src="Asset/200ppi/Asset 4asking.png" style="max-width:300px; height:auto;" class="img-fluid">
+                    <div class="col-md mb-3">
+                        <img src="Asset/200ppi/Asset 4asking.png" class="img-fluid">
                     </div>
                     <div class="col-md">
                             <p class="asking">Jurusan di Fasilkom itu ada dua yaitu jurusan 
@@ -107,10 +127,10 @@
                     <div class="row" style="padding-top: 30px;">
                         <div class="col-md">
                             <ul class="text-center list-group" id="switch-swap">
-                                <li class="list-group-item text-center" id="ilkom" style="border-radius:10px; background: none;" >
-                                    <button class="text-center" style="background:none; border:none; padding-top: 5px;" onclick="swapPerbedaanIlkom()"><h2 style="background:none;" class="text-center">Ilmu Komputer</h2></button>
+                                <li class="list-group-item text-center p-3" id="ilkom" style="border-radius:10px; background: none;" >
+                                    <button class="text-center" id="ilkom-button" style="background:none; border:none;" onclick="swapPerbedaanIlkom()"><h2 style="background:none;" class="text-center" id="ilkom-h">Ilmu Komputer</h2></button>
                                 </li>
-                                <li class="list-group-item text-center" id ="SI" style="border-radius:10px; background: none;">
+                                <li class="list-group-item text-center p-3 " id ="SI" style="border-radius:10px; background: none;">
                                     <button class="text-center" id="SI-button"  style="background:none; border:none; " onclick="swapPerbedaanSI()"><h2 class="text-center" style="background:none;">Sistem Informasi</h2></button>
                                 </li>
                             </ul>
@@ -160,36 +180,36 @@
                                     digolongkan ke dalam beberapa peminatan, yaitu :</p>
                                 <ul class="list-group list-group-horizontal" style="margin-bottom: 20px;margin-top: 10px;">
                                     <li class="list-group-item text-center" id="minat-ilkom-button" style="border:none; background: none; padding:7.5px;">
-                                        <button class="text-center" onclick="swapMinatIlkom()"><h2 class="text-center">Ilmu Komputer</h2></button>
+                                        <button class="text-center" onclick="swapMinatIlkom()"><h2 class="text-center my-auto">Ilmu Komputer</h2></button>
                                     </li>
                                     <li class="list-group-item text-center" id="minat-SI-button" style="border:none; background: none; padding:7.5px;">
-                                        <button class="text-center" onclick="swapMinatSI()"><h2 class="text-center">Sistem Informasi</h2></button>
+                                        <button class="text-center" onclick="swapMinatSI()"><h2 class="text-center my-auto">Sistem Informasi</h2></button>
                                     </li>
                                 </ul>
                             <div class="list-minat mb-3" id="minat" style="max-width:450px;">
                                 <div class="minat fadein-swap">
-                                <ul>
+                                <ul class="px-2">
                                     <li>
-                                        <img src="Asset/200ppi/Asset 4buble list.png" style="height:10px; width:10px;" alt=""> Bidang Minat Kecerdasan Komputasional
+                                        <img src="Asset/200ppi/Asset 4buble list.png" style="height:10px; width:10px;" alt="" class="mx-0 px-0"> Bidang Minat Kecerdasan Komputasional
                                     </li>
                                     <li>
-                                        <img src="Asset/200ppi/Asset 4buble list.png" style="height:10px; width:10px;" alt=""> Bidang Minat Teknologi Perangkat Lunak
+                                        <img src="Asset/200ppi/Asset 4buble list.png" style="height:10px; width:10px;" alt="" class="mx-0 px-0"> Bidang Minat Teknologi Perangkat Lunak
                                     </li>
                                     <li>
-                                        <img src="Asset/200ppi/Asset 4buble list.png" style="height:10px; width:10px;" alt=""> Bidang Minat Pengelolahan Informasi
+                                        <img src="Asset/200ppi/Asset 4buble list.png" style="height:10px; width:10px;" alt="" class="mx-0 px-0"> Bidang Minat Pengelolahan Informasi
                                     </li>
                                     <li>
-                                        <img src="Asset/200ppi/Asset 4buble list.png" style="height:10px; width:10px;" alt=""> Bidang Minat Arsitektur dan Infrastruktur
+                                        <img src="Asset/200ppi/Asset 4buble list.png" style="height:10px; width:10px;" alt="" class="mx-0 px-0"> Bidang Minat Arsitektur dan Infrastruktur
                                     </li>
                                 </ul>
                             </div>
                             <div class="minat fadein-swap">
-                                <ul>
+                                <ul class="px-2">
                                     <li>
-                                        <img src="Asset/200ppi/Asset 4buble list.png" style="height:10px; width:10px;" alt=""> Bidang Minat Teknologi Informasi
+                                        <img src="Asset/200ppi/Asset 4buble list.png" style="height:10px; width:10px;" alt="" class="mx-0 px-0"> Bidang Minat Teknologi Informasi
                                     </li>
                                     <li>
-                                        <img src="Asset/200ppi/Asset 4buble list.png" style="height:10px; width:10px;" alt=""> Bidang Minat Sistem Enterprise
+                                        <img src="Asset/200ppi/Asset 4buble list.png" style="height:10px; width:10px;" alt="" class="mx-0 px-0"> Bidang Minat Sistem Enterprise
                                     </li>
                                 </ul>
                             </div>
@@ -217,8 +237,7 @@
                     <h1 class="text-center">Penggunaan E-Learning SCELE</h1>
                     <div class="row my-4">
                         <div class="col-md-5">
-                            <img class="img-fluid mx-auto" style="max-width: 350px; height: auto; padding: 0px;
-                            margin: 0px;" src='Asset/200ppi/Asset 2part 6 image.png'>
+                            <img class="img-fluid mx-auto" src='Asset/200ppi/Asset 2part 6 image.png'>
                         </div>
                         <div class="col-md my-4 text-justify">
                             <p>Kegiatan pembelajaran di Fasilkom menggunakan 

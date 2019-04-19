@@ -29,8 +29,6 @@
         showSlides(slideIndex = 2,"minat");
     }
 
-
-
     function showSlides(n,clas) {
     var i;
     var slides = document.getElementsByClassName(clas);
@@ -39,7 +37,7 @@
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";  
     }
-    slides[slideIndex-1].style="";
+    slides[slideIndex-1].style.display="block";
     }
 
     function swapPerbedaanIlkom(){
