@@ -142,15 +142,3 @@ button:focus,button:active{
     }
 }
 
-@media(max-width:330px){
-    .swap{
-        max-width: 250px;
-    }
-    .legenda{
-        max-width: 250px;
-    }
-    .first-page .person{
-        max-width: 250px;
-        height: auto;
-    }
-}
