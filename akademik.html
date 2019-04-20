@@ -225,16 +225,26 @@
                         </div>
                     </div>
                 </div>
-                <div id="part5" class="container mb-5">
+                <div id="part5" class="container mb-5 mx-auto">
                     <h1 class="text-center">Mata Kuliah</h1>
-                    <ul class="list-group list-group-horizontal">
-                        <il class="list-group-item border-0">
-                            <button style="border:none; background: ;"></button>
-                        </il>
-                        <il class="list-group-item border-0">
-                            <button> </button>
-                        </il>
+                    <ul class="list-group list-group-horizontal px-0 mx-0">
+                        <li class="list-group-item border-0 p-2 mx-1 hoverMatkulIlkom" style="background: #FFADB7; border-bottom-left-radius: 0px;">
+                            <button id="matkul-ilkom" onclick="changeMatkul(this)" style="border:none; background: none;"><h2>Ilmu Komputer</h2></button>
+                        </li>
+                        <li class="list-group-item border-0 p-2 mx-1 hoverMatkulSI" style="border-bottom-right-radius: 0px;">
+                            <button id="matkul-SI" onclick="changeMatkul(this)" style="border:none; background:none;"><h2>Sistem Informasi</h2></button>
+                        </li>
                     </ul>
+                    <div class="row" >
+                        <div id="col-matkul" class="col-lg-8 rounded p-2 mb-3 mx-0" style="border:#FFADB7 solid 5px;">
+                            <img  src="Asset/200ppi/Matkul Ilkom.png" class="img-fluid swap-matkul fadein" style="display:block;" alt="">
+                            <img  src="Asset/200ppi/Matkul SI.png" alt="" style="display:none;" class=" fadein img-fluid swap-matkul">
+                        </div>  
+                        <div class="col-md-4" id="col-keterangan">
+                            <img src="Asset/200ppi/Keterangan AJa.png" style="border: #FFADB7 solid 5px;" class="img-fluid rounded p-3" alt="">
+                        </div>
+                    </div>
+                    
                 </div>
                 <div id="part6" class="container mb-5">
                     <h1 class="text-center">Penggunaan E-Learning SCELE</h1>
@@ -301,9 +311,7 @@
                             </div>
                         </div>
                     </div>
-                        </div>
-                        
-                        
+                </div>        
                 </div>
                 <script type='text/javascript' src="Akademik.js"></script>   
     </div>

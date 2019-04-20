@@ -29,6 +29,32 @@
         showSlides(slideIndex = 2,"minat");
     }
 
+    var clicked1=false;
+    var clicked2=false;
+    function changeMatkul(n){
+        if((n.id == "matkul-ilkom") && !clicked1){
+            var temp = document.getElementById("col-matkul");
+            temp.children[0].style.display="block";
+            temp.style.borderColor = "#FFADB7";
+            document.getElementById("col-keterangan").firstElementChild.style.borderColor="#FFADB7";
+            temp.children[1].style.display="none";
+            n.parentNode.style.backgroundColor ="#FFADB7";
+            document.getElementById("matkul-SI").parentNode.style.background = "none";
+            clicked1=true;
+            clicked2=false;
+        }else if((n.id == "matkul-SI") && !clicked2){
+            var temp = document.getElementById("col-matkul");
+            temp.children[1].style.display="block";
+            temp.style.borderColor = "#FFCCD2";
+            document.getElementById("col-keterangan").firstElementChild.style.borderColor="#FFCCD2";
+            temp.children[0].style.display="none";
+            n.parentNode.style.backgroundColor ="#FFCCD2";
+            document.getElementById("matkul-ilkom").parentNode.style.background = "none";
+            clicked1=false;
+            clicked2=true;
+        }
+    }
+
     function showSlides(n,clas) {
     var i;
     var slides = document.getElementsByClassName(clas);

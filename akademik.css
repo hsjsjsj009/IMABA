@@ -98,13 +98,16 @@ p{
 }
 
 .hoverBackgroundSI,
-.hoverBackgroundIlkom{
+.hoverBackgroundIlkom,
+.hoverMatkulSI,
+.hoverMatkulIlkom{
     position:relative;
     background: none;
 }
 
 
-.hoverBackgroundIlkom::after{
+.hoverBackgroundIlkom::after,
+.hoverMatkulIlkom::after{
     content:"";
     position:absolute;
     background: linear-gradient(90deg, #FFADB7 30%, transparent 70%);
@@ -116,7 +119,8 @@ p{
     border:none;
 }
 
-.hoverBackgroundSI::after{
+.hoverBackgroundSI::after,
+.hoverMatkulSI::after{
     content:"";
     position:absolute;
     background: linear-gradient(90deg, #FFCCD2 30%, transparent 70%);
@@ -142,10 +146,30 @@ p{
     border-radius: 10px;
     border:none;
 }
+
+.hoverMatkulIlkom,
+.hoverMatkulSI,
+.hoverMatkulSI::after,
+.hoverMatkulIlkom::after{
+    background-size: 400%;
+    background-position: 100%;
+    transition: top 0.3s ease-in;
+    -o-transition:      0.3s ease-in;
+    -ms-transition:     0.3s ease-in;   
+    -moz-transition:    0.3s ease-in;
+    -webkit-transition: 0.3s ease-in;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
 .hoverBackgroundIlkom:hover,
 .hoverBackgroundSI:hover,
 .hoverBackgroundIlkom:hover::after,
-.hoverBackgroundSI:hover::after{
+.hoverBackgroundSI:hover::after,
+.hoverMatkulIlkom:hover::after,
+.hoverMatkulSI:hover::after,
+.hoverMatkulIlkom:hover,
+.hoverMatkulSI:hover{
     background-position: 0;
     border:none;
 }
@@ -223,6 +247,19 @@ p{
 
 #minat img,#minat p{
     display: inline;
+    text-align: left;
+}
+#minat{
+    text-align: left;
+}
+
+#col-matkul,#col-keterangan img{
+    transition: 0.5s;
+}
+
+#part5 li{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 
@@ -238,7 +275,7 @@ p{
 @keyframes fadein-slide{
     from {opacity: 0;
     position: relative;
-    left:1000px;}
+    left:50%;}
     to{opacity: 1;
     position: relative;
     left:0px;}
@@ -266,9 +303,6 @@ p{
         padding:10px;
     }
 
-    #part3 .row .col-md-5 h2{
-        font-size: 16pt;
-    }
     .fadein{
         animation-name: fadein;
         animation-duration: 0.5s;
@@ -315,6 +349,22 @@ p{
     #part3 .list-group-item h2{
         font-size:20px;
     }
+
+    #part5 h2{
+        font-size: 18pt;
+    }
+
+    #col-matkul{
+        padding:0px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #part5 li{
+        transition: 0.5s;
+    }
+
+
     
 
 
