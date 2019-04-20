@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="Asset/Icon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="Asset/Icon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="Asset/Icon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="Asset/Icon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="Asset/Icon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="Asset/Icon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="Asset/Icon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="Asset/Icon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="Asset/Icon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="Asset/Icon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="Asset/Icon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="Asset/Icon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="Asset/Icon/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="Asset/Icon/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="Asset/Icon/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="Asset/Icon/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="Asset/Icon/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="Asset/Icon/mstile-310x310.png" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="informasi.css">
+
+    <title>Kanal Informasi</title>
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light m-auto" id="navbar">
+        <a class="navbar-brand mr-auto" id="imaba" href="index.html">iMaba</a>
+        <button onclick="changeColorButton()" class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                            <a class="nav-link " id=akademik href="akademik.html">Akademik</a>
+                        </li>
+                <li class="nav-item">   
+                    <a class="nav-link" id=UI href="UI.html">Info Kampus</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id=pacil href="#">Info Fasilkom</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" id=info href="Informasi.html">Kanal Informasi</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="app" class="mb-5 pb-3">
+        <div id="fist-page" class="container-fluid first-page fadein px-5 mb-5 fadein">
+            <div class="row">
+                <div class="col-md-5 mx-5 opening">
+                    <h1>KANAL INFORMASI</h1>
+                    <p class="mt-3">
+                        Masih bingung dengan birokrasi dan advokasi
+mahasiswa baru Fasilkom?
+                        <br>Mau tahu lebih banyak tentang kegiatan
+                        Pembinaan Mahasiswa Baru di Fasilkom?
+                        <br>Atau mau tahu kegiatan yang ada di Fasilkom?
+                        <br><br>Yuk, simak beberapa kanal informasi 
+                        yang dapat kamu hubungi!
+                    </p>
+                </div>
+                <div class="col-md-4 mx-1 py-2">
+                    <img src="Asset/Kanal Informasi/200ppi/First-page.png" class="person" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#part1" id="start" style="background:none; border:none; height: 80px; width:auto;" class="text-center">
+                    <img src="Asset/Kanal Informasi/200ppi/Button part1.png" style="height: 80px; width:auto; border-radius: 50%; transition: 0.5s">
+                </a>
+            </div>
+        </div>
+        <div id="part1" class="container my-5 py-5 mx-auto" style="height:800px;">
+            <div id="menu" class="mb-5 mt-5 p-3">
+                <div id="adkesma" class="menu buttonfx slideleft btn-active" onclick="changeMenu(this)">
+                    <h2>Adkesma
+                        <br>Fasilkom UI
+                    </h2>
+                </div>
+                <div id="bemcs" class="menu  buttonfx slideleft " onclick="changeMenu(this)">
+                    <h2>
+                        BEM
+                        <br>Fasilkom UI
+                    </h2>
+                </div>
+                <div id="kontingen" class="menu  buttonfx slideleft " onclick="changeMenu(this)">
+                    <h2>
+                        Kontingen
+                        <br>CSUI
+                    </h2>
+                </div>
+                <div id="PMB" class="menu buttonfx slideleft " onclick="changeMenu(this)">
+                    <h2 class="py-3">
+                        PMB
+                    </h2>
+                </div>
+                <div id="fasilkom" class="menu buttonfx slideleft " onclick="changeMenu(this)">
+                    <h2>
+                        Fasilkom
+                        <br>UI
+                    </h2>
+                </div>
+            </div>
+            <div id="adkesma-info" class="fadein row swaped p-3 m-1">
+                <div class="col-md-4 m-3 logo">
+                    <img src="Asset/Kanal Informasi/SVG/Pengmas.svg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md m-3 p-3 text">
+                    <p>
+                            Advokasi Kesejahteraan Mahasiswa 
+                            (Adkesma) adalah salah satu departemen 
+                            di BEM yang mewadahi aspirasi mahasiswa 
+                            terkait kesejahteraan serta melakukan 
+                            advokasi ke pihak Dekanat Fasilkom. 
+                            Adkesma akan membantu kamu dalam 
+                            menghadapi permasalahan seputar 
+                            akademis, finansial, psikologis, serta fasilitas 
+                            di Fasilkom UI yang dirasa kurang memadai.
+                    </p>
+                    <p class="text-left">
+                            Silakan hubungi kontak berikut apabila ingin
+                            bertanya ataupun sekadar bercerita:
+                            <br>Fitri (081807558961 | Id Line : snfitriiii)
+                            <br>Jilham (081281280150 | Id Line : Jilhamcitizen)
+                            <br>Taliya (087874055578 | Id Line : amirataliya)
+                            <br>Line Adkesma: @lmc0672o
+                    </p>
+                </div>
+            </div>
+            <div id="bemcs-info" class="fadein row swaped p-3 m-1" style="display:none;">
+                    <div class="col-md-4 m-3 logo">
+                        <img src="Asset/Kanal Informasi/SVG/Bem.svg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-md m-3 p-3 text">
+                        <p>
+                                BEM Fasilkom UI adalah sebuah organisasi 
+kemahasiswaan yang nantinya akan menjadi 
+wadah aktualisasi mahasiswa untuk 
+memaksimalkan potensi minat dan bakat 
+mahasiswa, serta menjadi motor penggerak 
+yang akan merealisasikan tri dharma perguruan 
+tinggi yang akan bergerak sesuai dengan aturan 
+dan hal kultural di Fasilkom UI..
+                        </p>
+                        <p class="text-left">
+                                Narahubung: 
+                               <br>Adiva Reyhan
+                               <br>Kepala Biro Humas BEM Fasilkom UI 2019
+                               <br>+62 8788 3000 166
+                        </p>
+                        <p class="text-left">
+                                Line: @BEMFasilkomUI
+                               <br>Instagram: @bemfasilkomui
+                               <br>Twitter: @BEMFasilkomUI
+                               <br>Facebook: bemfasilkomui
+                               <br>Website: bem.cs.ui.ac.id
+                        </p>
+                    </div>
+                </div>
+                <div id="kontingen-info" class="fadein row swaped p-3 m-1" style="display:none;">
+                        <div class="col-md-4 m-3 logo">
+                            <img src="Asset/Kanal Informasi/SVG/Kontingen.svg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-md m-3 p-3 text">
+                            <p>
+                                    Kontingen CSUI adalah bidang minat bakat dari 
+                                    BEM Fasilkom UI yang bertujuan mewadahi dan 
+                                    menyalurkan minat dan bakat mahasiswa 
+                                    Fasilkom di bidang seni budaya, keilmuan, dan 
+                                    olahraga, serta penyelenggaraan Unit Kegiatan 
+                                    Fakultas (UKF) dan Unit Kegiatan Olahraga 
+                                    (Ukor).
+                                    
+                            </p>
+                            <p class="text-left">
+                                    Simak terus kegiatan dan update dari  bidang 
+                                    minat bakat di sosial media berikut:
+                                   <br>Line: @kontingencsui
+                                   <br>Instagram: @kontingencsui
+                            </p>
+                        </div>
+                    </div>
+                    <div id="PMB-info" class="fadein row swaped p-3 m-1" style="display:none;">
+                            <div class="col-md-4 m-3 logo">
+                                <img src="Asset/Kanal Informasi/200ppi/PMB.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md m-3 p-3 text">
+                                <p>
+                                        PMB Fasilkom adalah acara untuk mahasiswa 
+                                        baru dari elemen Fasilkom UI dalam rangka 
+                                        mengenalkan kehidupan kuliah serta 
+                                        budaya-budaya yang ada di Fasilkom.
+                                        
+                                </p>
+                                <p class="text-left">
+                                        Narahubung:
+                                       <br>Bimo Iman Smartadi
+                                       <br>Ketua Pelaksana
+                                       <br>Line: bimoimans
+                                       <br>No. telp: 0898922185
+                                </p>
+                                <p class="text-left">
+                                        M. Rifqy Zulkarnaen
+                                       <br>PJ Humas Publikasi Kreatif
+                                       <br>Line: mrifqyz17
+                                       <br>No. telp: 087777535288
+                                </p>
+                            </div>
+                        </div>
+                        <div id="fasilkom-info" class="fadein row swaped p-3 m-1" style="display:none;">
+                                <div class="col-md-4  logo">
+                                    <img src="Asset/Kanal Informasi/1x/CSUI.png" alt="" class="img-fluid">
+                                </div>
+                                <div class="col-md m-3 p-3 text">
+                                    <p>
+                                            Fakultas Ilmu Komputer UI (Fasilkom UI) 
+merupakan salah satu fakultas Rumpun Ilmu 
+Sains dan Teknologi di Universitas Indonesia.
+Fasilkom UI menyelenggarakan program studi
+pada jenjang Sarjana (S1), Magister (S2), dan
+Doktoral (S3).
+                                            
+                                    </p>
+                                    <p class="text-left">
+                                            Fakultas Ilmu Komputer (Kampus UI Depok)
+                                            Universitas Indonesia
+                                           <br>Kampus UI Depok 16424, Jawa Barat Indonesia
+                                           <br>Telp. +62 21 786 3419, Fax. +62 21 786 3415
+                                           <br>Email: humasfasilkom@cs.ui.ac.id
+                                           <br>Twitter: @FASILKOM_UI
+                                           <br>Instagram: fasilkomuiofficial
+                                           <br>Website: cs.ui.ac.id
+                                    </p>
+                                </div>
+                            </div>
+        </div>
+        <script src="informasi.js"></script>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
