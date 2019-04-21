@@ -165,6 +165,10 @@ body{
 }
 
 @media(max-width:900px){
+    .dummy:before{
+        content: "Scroll Ke Kanan";
+        font-size: 26px;
+    }
     #menu .menu h2{
         font-size: 24px;
     }
