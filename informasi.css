@@ -114,9 +114,10 @@ p{
 
 #menu{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: stretch;
+    -webkit-flex-flow: row wrap;
+  justify-content: flex-start;
+  flex:1 100%;
+    align-content: flex-start;
 }
 
 #menu .menu{
