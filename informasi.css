@@ -113,18 +113,17 @@ p{
 }
 
 #menu{
-    display: flex;
-    -webkit-flex-flow: row wrap;
-  justify-content: flex-start;
-  flex:1 100%;
-    align-content: flex-start;
+overflow:auto;
+white-space: nowrap;
+align-content: center;
+box-align: center;
 }
 
 #menu .menu{
+    display: inline-block;
+    flex-direction: row;
     text-align: center;
     cursor: pointer;
-    align-self: center;
-    margin: auto;
     padding:10px;
     transition:0.5s;
 }
