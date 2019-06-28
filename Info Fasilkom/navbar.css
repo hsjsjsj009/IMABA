@@ -1,0 +1,27 @@
+@font-face{
+    font-family: 'Nunito';
+    src: url('https://fonts.googleapis.com/css?family=Nunito');
+}
+nav{
+    font-family: 'Rubik', sans-serif;
+    transition: 0.5s;
+    padding:0px;
+    margin:0px;
+    font-weight: bold;
+}
+
+nav .navbar-brand{
+    font-size: 20pt;
+    padding:0px;
+}
+nav .nav-item{
+    font-size: 12pt;
+    padding:5px;
+    margin:0px;
+}
+
+@media(max-width:500px){
+    .navbar-brand{
+        font-size: 20pt;
+    }
+}

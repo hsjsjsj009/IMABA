@@ -21,6 +21,11 @@ html{
     margin:0px;
 }
 
+body{
+    background:#5DA2D5;
+}
+
+
 h1{
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
