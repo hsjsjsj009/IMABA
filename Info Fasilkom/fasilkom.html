@@ -27,20 +27,92 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./navbar.css">
     <link rel="stylesheet" href="./fasilkom.css">
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script> -->
     <title>Info Fasilkom</title>
 </head>
 <body>
-<!-- Load React App -->
-<div id="app">
-</div>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light m-auto" id="navbar">
+    <a class="navbar-brand mr-auto" id="imaba" href="../index.html">iMaba</a>
+    <button onClick="changeColorButton()" class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                        <a class="nav-link"  href="../akademik.html">Akademik</a>
+                    </li>
+            <li class="nav-item">   
+                <a class="nav-link" href="../UI.html">Info Kampus</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active"  href="./fasilkom.html">Info Fasilkom</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../Informasi.html">Kanal Informasi</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container-fluid first-page px-5 fadein" id="first-page">
+    <div class="row">
+      <div class="col-md-5 mx-5 opening">
+        <h1>INFO FASILKOM</h1>
+        <p class="mt-3">
+                    Tak kenal maka tak sayang
+          Yuk kita mengenal Fasilkom lebih dalam lagi! 
+          Agar kita semakin cinta dengan Fasilkom.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <img src='../Asset Info Fasilkom/Picture-FirstPage.png' alt="" class="img-fluid person"/>
+      </div>
+    </div>
+    <div class="text-center">
+        <a href="#part1" style="border:none; border-radius: 50%; height: 80px; width:auto;" class="text-center">
+            <img src="../Asset Info Fasilkom/Button-FirstPage.svg" alt="" style="height: 80px; width:auto; border-radius: 50%; transition: 0.5s" class="img-button">
+        </a>
+    </div>
+  </div>
+  <div id="part1" class="container my-5 pt-5 pb-3 mx-auto" style="height:800px;">
+    <h1 class="text-center">Badan Otonom</h1>
+    <h3 class="dummy text-center mt-5"></h3>
+    <div id="menu-part1" class="menu-part1 mb-4 p-3 text-center">
+    <!-- Code Injected -->
+    </div>
+    <div id="bo-container">
+    </div>
+  </div>
+  <div id="part2" class="container mb-5 py-3 mx-auto">
+    <h1 class="text-center mb-4">Denah Fasilkom UI</h1>
+    <div class="part2-button text-center mb-4">
+        <button class="mx-4"><h2 class="text-center">
+            Gedung<br>Baru
+          </h2></button>
+          <button class="mx-4"><h2 class="text-center">
+              Gedung<br>Lama
+            </h2></button>
+    </div>
+    <div id="map-container">
+      <div class="navigation text-center">
+        <button style="height:10%; width:10%;" class="prev"><img src="../Asset Info Fasilkom/Previous.svg" alt="" class="img-fluid py-2" ></button>
+        <h2 class="mx-3 py-3 lantai">Lantai</h2>
+        <button style="height:10%; width:10%;" class="next"><img src="../Asset Info Fasilkom/Next.svg" alt="" class="img-fluid py-2" ></button>
+      </div>
+      <div class="map-content">
+        <div class="row">
+          <div class="row">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 <!-- Script -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script type="text/babel" src="./App.js"></script>
 <script src="./fasilkom.js"></script>
+<script src="./Part1.js"></script>
 </body>
 </html>
