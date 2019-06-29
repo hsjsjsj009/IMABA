@@ -40,7 +40,7 @@ h1{
 }
 
 
-h2,h3{
+h2,h3,h4{
     font-family: 'Nunito SemiBold',sans-serif;
     font-weight: bold;
 }
@@ -92,6 +92,14 @@ margin: 0px;
     margin-top: 0px;
     display: inline-table;
     overflow-x: hidden;
+}
+
+.map-picture img{
+    height: 100%;
+    width: 100%;
+    background-image: url("../Asset Info Fasilkom/Peta/Gedung Lama/Bentuk Gedung.png");
+    background-size: 100% 100% fixed;
+    background-position: fixed;
 }
 
 
@@ -186,6 +194,9 @@ button{
     #part1 .dummy::before{
         content: "Slide Left";
         font-size: 24px;
+    }
+    .prev,.next,.lantai{
+        flex: 1;
     }
     #first-page .person{
         max-width: 250px;
