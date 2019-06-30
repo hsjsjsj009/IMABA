@@ -94,30 +94,26 @@
               Gedung<br>Lama
             </h2></button>
     </div>
-    <div id="map-container" >
-      <div class="navigation pt-2 px-2 justify-content-md-center mb-4">
-        <button class="prev"><img src="../Asset Info Fasilkom/Previous.svg" alt="" class="img-fluid" ></button>
-          <h2 style="white-space: nowrap;" id="desc-lantai" class="mx-3 py-3 text-center lantai">Lantai 1<br>Gedung A</h2>
-        <button class="next"><img src="../Asset Info Fasilkom/Next.svg" alt="" class="img-fluid" ></button>
+    <div id="map-container" class="pt-1" >
+      <div class="row navigation pt-2 px-2 justify-content-center mb-4">
+        <button onclick="prevMap()" class="col-sm prev" style="height: 95px; max-width: 150px;"><img src="../Asset Info Fasilkom/Previous.svg" alt="" class="img-fluid"  ></button>
+          <h2 style="white-space: nowrap; max-width: 200px;" id="desc-lantai" class="col-sm-4 py-3 text-center lantai">Lantai 1<br>Gedung A</h2>
+        <button class="next col-sm" onclick="nextMap()" style="height: 95px; max-width: 150px;"><img src="../Asset Info Fasilkom/Next.svg" alt="" class="img-fluid" ></button>
       </div>
-      <div class="map-content">
-          <div class="row justify-content-md-center mb-3 p-1">
-            <div style="max-height: 450px; max-width: 400px;  background-color: #6262627d; border-radius: 10px; align-self: center;" id="map-image" class="col-lg-5 map-picture text-center p-1">
-              <img src="../Asset Info Fasilkom/Peta/Gedung Lama/Bentuk Gedung.png" alt="" class="fadein img-fluid peta p-1" style="height: 80%;width: 80%;">
+      <div class="map-content justify-content-center">
+          <div class="row justify-content-center mb-3 p-1">
+            <div style="max-height: 450px; width: 400px; align-self: center;" id="map-image" class="col-lg-5 map-picture text-center p-1">
             </div>
-            <div class="map-desc col-md-5 text-left">
+            <div class="map-desc col-md-5 text-left pt-3">
               <h4 class="text-center">Keterangan:</h3>
-                <div id="map-desc" style="font-size: 26px;">
-                  <ol>
-                    <li><h4>Test</h4></li>
-                  </ol>
+                <div id="map-desc" class="p-1" style="font-size: 26px;">
                 </div>
             </div>
           </div>
-          <div class="row text-center justify-content-md-center">
-            <div class="col">
+          <div class="row text-center justify-content-center">
+            <div class="col-md-6">
               <h4 class="">Istilah Tempat:</h3>
-                <div id="istilah-tempat">
+                <div id="istilah-tempat" style="font-size: 26px;">
                 </div>
             </div>
           </div>
@@ -131,5 +127,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="./fasilkom.js"></script>
 <script src="./Part1.js"></script>
+<script src="./Part2.js"></script>
 </body>
 </html>

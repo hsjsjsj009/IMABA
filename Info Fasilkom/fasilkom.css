@@ -161,13 +161,7 @@ button{
     border: none;
 }
 
-.prev,.next,.lantai{
-    flex: 0.1;
-}
-
 .navigation{
-    display: flex;
-    flex-direction: row;
     justify-content: center;
     align-content: center;
 }
