@@ -75,51 +75,70 @@
         </a>
     </div>
   </div>
-  <div id="part1" class="container my-5 pt-5 pb-3 mx-auto">
+  <div id="part1" class="container app-cont mt-5 mb-3 pt-5 pb-5 mx-auto">
     <h1 class="text-center">Badan Otonom</h1>
     <h3 class="dummy text-center mt-5"></h3>
     <div id="menu-part1" class="menu-part1 mb-4 p-3 text-center">
     <!-- Code Injected -->
     </div>
     <div id="bo-container">
+      <!-- Code Injected -->
     </div>
   </div>
-  <div id="part2" class="container mb-5 py-3 mx-auto">
+  <div id="part2" class="container app-cont mb-3 pt-3 pb-5 mx-auto">
     <h1 class="text-center mb-4">Denah Fasilkom UI</h1>
-    <div class="part2-button text-center mb-4">
-        <button class="mx-4"><h2 class="text-center">
+    <div class="row part2-button justify-content-center text-center mb-4" style="white-space: nowrap;">
+        <div onclick="changeBuilding(this)" style="max-width: 200px;" class="align-self-center buttonfx slideleft mx-4 map-button" id="new"><h2 class="text-center">
             Gedung<br>Baru
-          </h2></button>
-          <button class="mx-4"><h2 class="text-center">
+          </h2></div>
+          <div onclick="changeBuilding(this)" style="max-width: 200px;" class="mx-4 map-button align-self-center buttonfx slideleft btn-active" id="old"><h2 class="text-center">
               Gedung<br>Lama
-            </h2></button>
+            </h2></div>
     </div>
     <div id="map-container" class="pt-1" >
-      <div class="row navigation pt-2 px-2 justify-content-center mb-4">
-        <button onclick="prevMap()" class="col-sm prev" style="height: 95px; max-width: 150px;"><img src="../Asset Info Fasilkom/Previous.svg" alt="" class="img-fluid"  ></button>
-          <h2 style="white-space: nowrap; max-width: 200px;" id="desc-lantai" class="col-sm-4 py-3 text-center lantai">Lantai 1<br>Gedung A</h2>
-        <button class="next col-sm" onclick="nextMap()" style="height: 95px; max-width: 150px;"><img src="../Asset Info Fasilkom/Next.svg" alt="" class="img-fluid" ></button>
+      <div class="row navigation pt-2 px-3 justify-content-center mb-4" style="flex-wrap:nowrap;">
+        <button onclick="prevMap()" class="nav-button align-self-center col-sm" style="height: 95px; max-width: 150px;"><img src="../Asset Info Fasilkom/Previous.svg" alt="" class="img-fluid prev"  ></button>
+          <h2 style="white-space: nowrap; max-width: 220px;" id="desc-lantai" class="align-self-center col-sm-2 py-3 text-center lantai"></h2>
+        <button class="nav-button align-self-center col-sm" onclick="nextMap()" style="height: 95px; max-width: 150px;"><img src="../Asset Info Fasilkom/Next.svg" alt="" class="img-fluid next" ></button>
       </div>
-      <div class="map-content justify-content-center">
+      <div class="map-content justify-content-center px-2">
           <div class="row justify-content-center mb-3 p-1">
-            <div style="max-height: 450px; width: 400px; align-self: center;" id="map-image" class="col-lg-5 map-picture text-center p-1">
+            <div style="max-height: 550px; width: 500px; align-self: center;" id="map-image" class="col-lg-5 map-picture text-center p-1">
+              <!-- Code Injected -->
             </div>
             <div class="map-desc col-md-5 text-left pt-3">
               <h4 class="text-center">Keterangan:</h3>
                 <div id="map-desc" class="p-1" style="font-size: 26px;">
+                <!-- Code Injected -->
                 </div>
             </div>
           </div>
-          <div class="row text-center justify-content-center">
-            <div class="col-md-6">
-              <h4 class="">Istilah Tempat:</h3>
-                <div id="istilah-tempat" style="font-size: 26px;">
-                </div>
+          <div class="row justify-content-center">
+            <div class="col-md-6 justify-content-center" style="justify-items: center;">
+              <h4 class="text-center">Istilah Tempat</h3>
+            </div>
+            <div class="w-100"></div>
+            <div id="istilah-tempat" class="col-md-6 mb-3" style="font-size: 26px; justify-items: center;">
+            <!-- Code Injected -->
             </div>
           </div>
         </div>
       </div>
     </div>
+    <div id="part3" class="app-cont container mb-3 pt-3 pb-5 mx-auto">
+      <h1 class="text-center mb-5">Budaya di Fasilkom UI</h1>
+      <div class="row justify-content-center mt-5 mb-5">
+        <div class="col-lg-5 p-4 align-self-center"><img src="../Asset Info Fasilkom/Budaya.svg" alt="" class="img-fluid"></div>
+        <div class="col-md-4 p-3 align-self-center">
+          <p>Karena kamu sudah menjadi bagian dari Fasilkom, 
+            Yuk kenali dan terapkan budaya-budaya yang ada di Fasilkom berikut!</p>
+        </div>
+      </div>
+      <div class="row justify-content-center" id="list-budaya">
+        <!-- Code Injected -->
+      </div>
+    </div>
+    
   </div>
 <!-- Script -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -128,5 +147,6 @@
 <script src="./fasilkom.js"></script>
 <script src="./Part1.js"></script>
 <script src="./Part2.js"></script>
+<script src="./Part3.js"></script>
 </body>
 </html>

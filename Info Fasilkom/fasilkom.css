@@ -66,8 +66,19 @@ p{
     margin-top: 30px;
 }
 
-#part1{
+.app-cont{
     border-bottom: #007AD5 solid 0.5px;
+}
+
+.prev,.next{
+    transition: all 0.3s;
+}
+
+.prev:hover{
+    transform: translate3d(-15px,0,0);
+}
+.next:hover{
+    transform: translate3d(15px,0,0);
 }
 
 #menu-part1{
@@ -99,10 +110,13 @@ margin: 0px;
     background: transparent;
     position: relative;
     overflow: hidden;
+    cursor: pointer;
     transition: all .5s;
     border-radius: 10px;
-    padding:8px;
+    padding:10px;
 }
+
+
 
   .buttonfx:before,
 .buttonfx:after{
@@ -144,6 +158,10 @@ margin: 0px;
     transform: translate3D(0,0,0);
     transition: all .5s;
   }
+  .newbi{
+    max-width: 100%;
+}
+
 
 .btn-active{
     background: #007AD5;
@@ -166,7 +184,6 @@ button{
     align-content: center;
 }
 
-
 @keyframes fadein{
     from{
         opacity: 0;
@@ -180,6 +197,15 @@ button{
     #part1 .dummy::before{
         content: "Slide Left";
         font-size: 24px;
+    }
+    .prev:hover{
+        transform: translate3d(0,0,0);
+    }
+    .next:hover{
+        transform: translate3d(0,0,0);
+    }
+    .newbi{
+        max-width: 95%;
     }
     .prev,.next,.lantai{
         flex: 1;
