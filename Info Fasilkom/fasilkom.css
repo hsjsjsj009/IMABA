@@ -178,6 +178,47 @@ button{
     background: none;
     border: none;
 }
+.acc-panel {
+    border: #007AD5 solid 2px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.acc-cont{
+    transition: 0.3s all;
+}
+
+.accordion {
+    background-color: #6ab2e7;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 85%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    transition: 0.4s;
+    align-content: center;
+    border-radius: 0px;
+}
+
+.accordion::after{
+    content: '\002B';
+    float: right;
+    font-size: 20px;
+}
+
+.acc-active::after{
+    content: "\2212";
+}
+
+.accordion:hover,.acc-active{
+    background-color:#007AD5;
+}
+
 
 .navigation{
     justify-content: center;
