@@ -13,8 +13,8 @@ function changeMenu(n){
 
 const Data = [{
     id:"bemcs",
-    text:"BEM<br>Fasilkom UI",
-    class:"",
+    text:"BEM Fasilkom UI",
+    class:"py-2",
     logo:"../Asset Info Fasilkom/Logo Kepanitiaan/Logo Kepanitiaan/BO/1x/BEMCS.png",
     paragraph:"BEM Fasilkom UI adalah sebuah organisasi kemahasiswaan yang nantinya akan menjadi wadah aktualisasi mahasiswa untuk memaksimalkan potensi minat dan bakat mahasiswa, serta menjadi motor penggerak yang akan merealisasikan tri dharma perguruan tinggi yang akan bergerak sesuai dengan aturan dan hal kultural di Fasilkom UI.",
     sosmed:{
@@ -28,8 +28,8 @@ const Data = [{
 },
 {
     id:"dpmcs",
-    text:"DPM<br>Fasilkom UI",
-    class:"",
+    text:"DPM Fasilkom UI",
+    class:"py-2",
     logo:"../Asset Info Fasilkom/Logo Kepanitiaan/Logo Kepanitiaan/BO/dpm_png.png",
     paragraph:"Dewan Perwakilan Mahasiswa Fasilkom UI merupakan lembaga yang berperan sebagai lembaga legislatif dan memiliki fungsi yudikatif, maka merupakan suatu kewajiban DPM Fasilkom UI untuk melayani IKM Fasilkom UI.",
     sosmed:{
@@ -41,7 +41,7 @@ const Data = [{
 {
     id:"ristek",
     text:"RISTEK",
-    class:"py-3",
+    class:"py-2",
     logo:"../Asset Info Fasilkom/Logo Kepanitiaan/Logo Kepanitiaan/BO/1x/RISTEK.png",
     paragraph:"RISTEK adalah organisasi independen di Fakultas Ilmu Komputer, Universitas Indonesia yang bertujuan untuk menumbuhkan minat dan bakat siswa dalam teknologi.<br><br>RISTEK terbagi dalam beberapa Special Interest Group (SIG) yaitu App Development, Data Science, Embedded System, Game Development, NetSOS, UI/UX, dan Web Development.",
     sosmed:{
@@ -54,7 +54,7 @@ const Data = [{
 {
     id:"sistem",
     text:"SISTEM",
-    class:"py-3",
+    class:"py-2",
     logo:"../Asset Info Fasilkom/Logo Kepanitiaan/Logo Kepanitiaan/BO/1x/SISTEM.png",
     paragraph:"SISTEM Fasilkom UI is an organization under Universitas Indonesia’s Computer Science Faculty, specialize in researching all things related to business, information technology, and information system while accommodates students that have an interest in the mentioned fields.<br><br>SISTEM memiliki visi sebagai organisasi yang mewadahi mahasiswa Fasilkom UI yang memiliki minat terhadap hal-hal yang berkaitan dengan sistem informasi, bisnis, dan penerapan teknologi informasi.",
     sosmed:{
@@ -66,7 +66,7 @@ const Data = [{
 {
     id:"fuki",
     text:"FUKI",
-    class:"py-3",
+    class:"py-2",
     logo:"../Asset Info Fasilkom/Logo Kepanitiaan/Logo Kepanitiaan/BO/1x/FUKI.png",
     paragraph:"FUKI (Forum Ukhuwah dan Kajian Islam), adalah Lembaga Dakwah Fakultas yang bertempat di Fasilkom UI. Dengan modal core competence di bidang IT, FUKI mempunyai mimpi besar untuk menyiarkan kekerenan agama Islam ke seluruh dunia! Mimpi besar itu diawali dengan langkah yang cukup besar, menyiarkan Islam ke seluruh elemen Fasilkom.",
     sosmed:{
@@ -80,7 +80,7 @@ const Data = [{
 {
     id:"po",
     text:"PO",
-    class:"py-3",
+    class:"py-2",
     logo:"",
     paragraph:"PO atau Persekutuan Oikumene adalah perkumpulan mahasiswa Kristen Fakultas Ilmu Komputer. PO bersifat terbuka bagi seluruh mahasiswa Fasilkom dari berbagai aliran atau denominasi gereja.",
     sosmed:{
@@ -94,7 +94,7 @@ const Data = [{
 {
     id:"kuksa",
     text:"KUKSA",
-    class:"py-3",
+    class:"py-2",
     logo:"../Asset Info Fasilkom/Logo Kepanitiaan/Logo Kepanitiaan/BO/kuksa-01.png",
     paragraph:"KUKSA atau Keluarga Umat Katolik Sivitas Akademika merupakan perkumpulan mahasiswa Katolik Fakultas Ilmu Komputer.",
     sosmed:{

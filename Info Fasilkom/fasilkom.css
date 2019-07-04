@@ -42,7 +42,6 @@ h1{
 
 h2,h3,h4{
     font-family: 'Nunito SemiBold',sans-serif;
-    font-weight: bold;
 }
 
 p{
@@ -67,7 +66,7 @@ p{
 }
 
 .app-cont{
-    border-bottom: #007AD5 solid 0.5px;
+    border-bottom: grey solid 0.5px;
 }
 
 .prev,.next{
@@ -97,7 +96,6 @@ margin: 0px;
     cursor: pointer;
     padding:10px;
     transition:0.5s;
-    height: 100px;
 }
 #bo-container{
     margin-top: 0px;

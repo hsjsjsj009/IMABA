@@ -105,10 +105,12 @@ for (i = 0; i < acc.length; i++) {
         var temp = expandedPanel.nextElementSibling;
         temp.style.maxHeight = null;
         temp.classList.remove("pb-5");
+        temp.classList.remove("px-3")
     }
     this.classList.toggle("acc-active");
     var panel = this.nextElementSibling;
     panel.classList.toggle("pb-5");
+    panel.classList.toggle("px-3")
     if(panel.style.maxHeight){
         panel.style.maxHeight=null;
     }else{
