@@ -225,6 +225,11 @@ button{
     align-content: center;
 }
 
+.part5-middle{
+    border-left: #6ab2e7 solid 1px;
+    border-right: #6ab2e7 solid 1px;
+}
+
 @keyframes fadein{
     from{
         opacity: 0;
@@ -280,5 +285,8 @@ button{
     }
     p{
         font-size: 12pt;
+    }
+    .part5-middle{
+        border:none;
     }
 }

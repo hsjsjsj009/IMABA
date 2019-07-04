@@ -99,15 +99,22 @@ var i;
 
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
+    var expandedPanel = document.querySelector(".acc-active");
+    if(expandedPanel && expandedPanel !== this){
+        expandedPanel.classList.remove("acc-active");
+        var temp = expandedPanel.nextElementSibling;
+        temp.style.maxHeight = null;
+        temp.classList.remove("p-3");
+    }
     this.classList.toggle("acc-active");
     var panel = this.nextElementSibling;
     panel.classList.toggle("p-3");
-    if (panel.style.maxHeight){
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
-  });
+    if(panel.style.maxHeight){
+        panel.style.maxHeight=null;
+    }else{
+        panel.style.maxHeight = panel.scrollHeight + "px"; 
+    }
+});
 }
 
 function changeAcc(obj){
