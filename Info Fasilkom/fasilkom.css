@@ -105,9 +105,7 @@ margin: 0px;
     padding:10px;
 }
 
-
-
-  .buttonfx:before,
+.buttonfx:before,
 .buttonfx:after{
   content: '';
   position: absolute;

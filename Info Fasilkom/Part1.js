@@ -108,15 +108,15 @@ let menuComp = document.createDocumentFragment();
 let infoComp = document.createDocumentFragment();
 Data.forEach(element => {
     // Menu Component
-        let text = document.createElement('h2');
+        let text = document.createElement('h3');
         text.innerHTML=element.text;
         text.setAttribute('class',element.class);
         let menu = document.createElement('div');
         menu.setAttribute('id',element.id);
         if(element.active){
-            menu.setAttribute('class','menu buttonfx slideleft btn-active mx-2');
+            menu.setAttribute('class','menu buttonfx slideleft btn-active mx-1');
         }else{
-            menu.setAttribute('class','menu buttonfx slideleft mx-2');
+            menu.setAttribute('class','menu buttonfx slideleft mx-1');
         }
         menu.setAttribute('onclick','changeMenu(this)');
         menu.appendChild(text);

@@ -29,7 +29,7 @@ let container = document.createDocumentFragment();
 
 DataBudaya.forEach(obj => {
     let col = document.createElement('div');
-    col.classList.add("col-md-6","justify-content-center","p-2");
+    col.classList.add("col-md-6","justify-content-center","py-2","px-3");
     let text = document.createElement('p');
     text.style.textAlign="justify";
     text.textContent=obj[1];
