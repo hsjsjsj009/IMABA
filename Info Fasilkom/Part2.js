@@ -179,8 +179,9 @@ NewBuilding.forEach(obj =>{
 document.getElementById("map-image").appendChild(imgComp);
 
 function createDesc(list,allign){
-    let olDOM = document.createElement('ol');
+    let olDOM = document.createElement('div');
     olDOM.classList.add("text-center");
+    olDOM.style.fontWeight="normal";
     list.forEach(obj => {
         let text = document.createElement('h4');
         text.classList.add("text-"+allign,"mb-3");
