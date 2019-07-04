@@ -205,16 +205,16 @@ button{
     border-radius: 0px;
 }
 
-.accordion:hover::after{
+.accordion::after{
     content: '\002B';
     float: right;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .acc-active::after{
     content: "\2212";
     float:right;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .accordion:hover,.acc-active{
