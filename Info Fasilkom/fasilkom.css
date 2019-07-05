@@ -192,7 +192,7 @@ button{
     border-radius: 0px;
 }
 
-.accordion:hover::after{
+.accordion:after{
     content: '\002B';
     float: right;
     font-size: 18px;
