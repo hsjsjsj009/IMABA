@@ -81,7 +81,7 @@ const Data = [{
     id:"po",
     text:"PO",
     class:"py-2",
-    logo:"",
+    logo:"../Asset Info Fasilkom/Logo Kepanitiaan/Logo Kepanitiaan/BO/PO.jpg",
     paragraph:"PO atau Persekutuan Oikumene adalah perkumpulan mahasiswa Kristen Fakultas Ilmu Komputer. PO bersifat terbuka bagi seluruh mahasiswa Fasilkom dari berbagai aliran atau denominasi gereja.",
     sosmed:{
         website:"po.cs.ui.ac.id",

@@ -136,9 +136,6 @@ box-align: center;
     text-align: center;
 }
 
-#part1 .swaped .text{
-    border-left: #CCCCCC solid 10px;
-}
 
 body{
     background: url("Asset/Kanal Informasi/1x/BG\ BOdy2.png") bottom right no-repeat;
@@ -161,10 +158,6 @@ body{
     }
     #menu .menu h2{
         font-size: 24px;
-    }
-    #part1 .swaped .text{
-        border-top: #CCCCCC solid 10px;
-        border-left: none;
     }
 
     body{

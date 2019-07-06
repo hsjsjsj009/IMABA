@@ -57,7 +57,8 @@ p{
 }
 
 .app-cont{
-    border-bottom: grey solid 0.5px;
+    padding-bottom: 50px;
+    border-bottom: #c4c4c4 solid 1px;
 }
 
 .prev,.next{
