@@ -35,7 +35,7 @@ const NewBuilding =[{
     desc:[
         "A : Belakang Auditorium",
         "A2.06 - A2.09 : Kelas",
-        "A2.01 : Auditorium" 
+        "A2.01 : Auditorium"
     ],
     spcPlace:[
         "A : Beldit"
@@ -207,7 +207,7 @@ function changeMap(index){
             olDOM2.appendChild(createDesc(OldBuilding[index].spcPlace,"left"));
         }else{
             let h4 = document.createElement('h4');
-            h4.innerHTML="Tidak Ada";
+            h4.innerHTML="-";
             h4.classList.add("text-center");
             olDOM2.appendChild(h4);
         }
@@ -218,7 +218,7 @@ function changeMap(index){
             olDOM2.appendChild(createDesc(NewBuilding[index].spcPlace,"left"));
         }else{
             let h4 = document.createElement('h4');
-            h4.innerHTML="Tidak Ada";
+            h4.innerHTML="-";
             h4.classList.add("text-center");
             olDOM2.appendChild(h4);
         }
