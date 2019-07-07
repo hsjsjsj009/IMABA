@@ -7,7 +7,7 @@ const NewBuilding =[{
     name:"Lantai Dasar",
     img:"../Asset Info Fasilkom/Peta/Gedung Baru/Asset 4.png",
     id:"new-0",
-    square:true,
+    square:false,
     desc:[
         "A : Pintu Keluar Depan",
         "B : Pintu Keluar Belakang"
@@ -44,112 +44,134 @@ const NewBuilding =[{
 
 const OldBuilding = [{
     name:"Denah<br>Gedung",
-    img:"../Asset Info Fasilkom/Peta/Gedung Lama/Bentuk Gedung.png",
+    img:"../Asset Info Fasilkom/Peta/Gedung Lama/300ppi/Denah Gedung.png",
     id:"old-0",
     square:true,
     desc:[
-        "A : Gedung A (Gedung Belakang)",
-        "B : Gedung B (Gedung Tengah)",
-        "C : Gedung C (Gedung Depan)",
-        "D : Tenda Putih",
-        "E : Parkiran Belakang"
+        "1 : Parkiran Motor",
+        "2 : Kantin",
+        "3 : Belalai",
+        "5 : Yoshinoya",
+        "7 : Tenda Putih",
+        "8 : Fotokopi Senyum",
+        "9 : Parkiran Mobil"
     ],
     spcPlace:[
         "Fasilkom : Pacil",
-        "1 : Yuli (Kayu Liar)",
-        "E : Parbel"
+        "4 : Yuli (Kayu Liar)",
+        "6 : Dinding Bata",
+        "9 : Parbel (Parkiran Belakang)"
     ]
 },{
-    name:"Lantai 1<br>Gedung A",
-    img:"../Asset Info Fasilkom/Peta/Gedung Lama/Lantai 1.png",
+    name:"Gedung A",
+    img:"../Asset Info Fasilkom/Peta/Gedung Lama/300ppi/Gedung A.png",
     id:"old-1",
     square:false,
     desc:[
-        "     A      : Lab Babe",
-        "1101 - 1109 : Lab Komputer"
+        "Lantai 1-2 :",
+        "Lab. Komputer",
+        "Lab. Babe (Lembaga Asisten)",
+        "Ruang Staf Kemahasiswaan",
+        "Ruangan Dosen",
+        "Pos Satpam"
     ],
     spcPlace:[
     ]
 },{
     name:"Lantai 1<br>Gedung B",
-    img:"../Asset Info Fasilkom/Peta/Gedung Lama/Asset 12.png",
+    img:"../Asset Info Fasilkom/Peta/Gedung Lama/300ppi/Gedung B Lt 1.png",
     id:"old-2",
     square:true,
     desc:[
         "2101 : Aula",
         "2102 : Gudang Aula",
-        "A : Perpustakaan Fasilkom"
+        "1 : Quiet Room (di lantai 2 Perpustakaan)",
+        "2 : Perpus Atas (Lantai 2 Perpistakaan)",
+        "3 : Perpustakaan Fasilkom",
+        "4 : Perpus Bawah"
     ],
     spcPlace:[
         "2102 : Gudal",
-        "A : Perpucil (Perpustakaan Pacil)",
-        "B : Mebu (Meja)"
+        "3 : Perpucil (Perpustakaan Pacil)",
+        "5 : Mebu"
     ]
 },{
     name:"Lantai 2<br>Gedung B",
-    img:"../Asset Info Fasilkom/Peta/Gedung Lama/Asset 11.png",
+    img:"../Asset Info Fasilkom/Peta/Gedung Lama/300ppi/Gedung B Lt 2.png",
     id:"old-3",
     square:true,
     desc:[
-        "A : Cafe Sekre",
-        "C : Sekre"
+        "1 : Sekretariat Fasilkom",
+        "4 : Mushola Laki-laki",
+        "5 : Mushola Perempuan",
+        "6 : Ruang BEM"
     ],
     spcPlace:[
-        "B : Rubem (Ruangan BEM)"
+        "2 : Sekre Square",
+        "3 : Kafe Sekre"
     ]
 },{
     name:"Lantai 3<br>Gedung B",
-    img:"../Asset Info Fasilkom/Peta/Gedung Lama/Asset 7.png",
+    img:"../Asset Info Fasilkom/Peta/Gedung Lama/300ppi/Gedung B Lt 3.png",
     id:"old-4",
     square:true,
     desc:[
-        "2301-2307 : Kelas"
+        "2301-2307 : Ruang Kelas"
     ],
     spcPlace:[
     ]
 },{
     name:"Lantai 4<br>Gedung B",
-    img:"../Asset Info Fasilkom/Peta/Gedung Lama/Asset 8.png",
+    img:"../Asset Info Fasilkom/Peta/Gedung Lama/300ppi/Gedung B Lt 4.png",
     id:"old-5",
     square:true,
     desc:[
-        "2401-2406 : Kelas"
+        "2401-2406 : Ruang Kelas"
     ],
     spcPlace:[
     ]
 },{
     name:"Lantai 5<br>Gedung B",
-    img:"../Asset Info Fasilkom/Peta/Gedung Lama/Asset 9.png",
+    img:"../Asset Info Fasilkom/Peta/Gedung Lama/300ppi/Gedung B Lt 5.png",
     id:"old-6",
     square:true,
     desc:[
-        "2501-2503 : Kelas"
+        "2501-2504 : Ruang Kelas"
     ],
     spcPlace:[
     ]
 },{
     name:"Lantai 6<br>Gedung B",
-    img:"../Asset Info Fasilkom/Peta/Gedung Lama/Asset 14.png",
+    img:"../Asset Info Fasilkom/Peta/Gedung Lama/300ppi/Gedung B Lt 6.png",
     id:"old-7",
     square:true,
     desc:[
-        "2601 : Lab Komputer",
-        "2602-2604 : Kelas"
+        "2601 : Lab. Komputer",
+        "2602-2604 : Ruang Kelas"
     ],
     spcPlace:[
     ]
 },{
-    name:"Lantai 1<br>Gedung C",
-    img:"../Asset Info Fasilkom/Peta/Gedung Lama/Asset 3_1.png",
+    name:"Gedung C",
+    img:"../Asset Info Fasilkom/Peta/Gedung Lama/300ppi/Gedung C.png",
     id:"old-8",
     square:false,
     desc:[
+        "Lantai 1 :",
         "3111-3114 : Kelas",
-        "C : Yoshinoya"
+        "1 : Kantin",
+        "5 : Yoshinoya",
+        "",
+        "Lantai 2-3 :",
+        "Ruang Dosen",
+        "Ruang Kelas",
+        "Microsoft Innovation Center",
+        "Lab. Komputer"
     ],
     spcPlace:[
-        "A : Kantiv (Kantin TV)",
-        "B : BelYos (Belakang Yoshinoya)"
+        "Lantai 1 :",
+        "2 : Kantiv (Kantin TV)",
+        "4 : BelYos (Belakang Yoshinoya)"
     ]
 }]
 
@@ -183,10 +205,17 @@ function createDesc(list,allign){
     olDOM.classList.add("text-center");
     olDOM.style.fontWeight="normal";
     list.forEach(obj => {
-        let text = document.createElement('h4');
-        text.classList.add("text-"+allign,"mb-3");
-        text.innerHTML = obj;
-        olDOM.appendChild(text);
+        if(obj.includes("Lantai 1") || obj.includes("Lantai 1-2") || obj.includes("Lantai 2-3")){
+            let text = document.createElement('h5');
+            text.classList.add("text-"+allign,"mb-3");
+            text.innerHTML = obj;
+            olDOM.appendChild(text);    
+        }else{
+            let text = document.createElement('h4');
+            text.classList.add("text-"+allign,"mb-3");
+            text.innerHTML = obj;
+            olDOM.appendChild(text);
+        }
     })
     return olDOM;
 }
@@ -204,23 +233,19 @@ function changeMap(index){
         document.getElementById("desc-lantai").innerHTML=OldBuilding[index].name;
         olDOM1.appendChild(createDesc(OldBuilding[index].desc,"left"));
         if(OldBuilding[index].spcPlace.length != 0){
+            document.getElementById("istilah-tempat-cont").style.display=null;
             olDOM2.appendChild(createDesc(OldBuilding[index].spcPlace,"left"));
         }else{
-            let h4 = document.createElement('h4');
-            h4.innerHTML="-";
-            h4.classList.add("text-center");
-            olDOM2.appendChild(h4);
+            document.getElementById("istilah-tempat-cont").style.display="none";
         }
     }else if(state.partActive == "new"){
         document.getElementById("desc-lantai").innerHTML=NewBuilding[index].name;
         olDOM1.appendChild(createDesc(NewBuilding[index].desc,"left"));
         if(OldBuilding[index].spcPlace.length != 0){
+            document.getElementById("istilah-tempat-cont").style.display=null;
             olDOM2.appendChild(createDesc(NewBuilding[index].spcPlace,"left"));
         }else{
-            let h4 = document.createElement('h4');
-            h4.innerHTML="-";
-            h4.classList.add("text-center");
-            olDOM2.appendChild(h4);
+            document.getElementById("istilah-tempat-cont").style.display="none";
         }
     }
     document.getElementById(state.partActive+"-"+index.toString()).style.display="";

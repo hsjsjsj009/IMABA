@@ -34,39 +34,46 @@ DataSlideShow.forEach(obj => {
     slideCont.className="row justify-content-center align-self-center slide py-4 fadein";
     slideCont.appendChild(image);
     slideCont.appendChild(text);
-    if(index == 0){
-        slideCont.style.display=null;
-    }else{
-        slideCont.style.display="none";
-    }
-    index++;
+    // if(index == 0){
+    //     slideCont.style.display=null;
+    // }else{
+    //     slideCont.style.display="none";
+    // }
+    // index++;
     sliderCont.appendChild(slideCont);
 })
 
 document.getElementById("slideshow-container").appendChild(sliderCont);
 
-var slideIndex = 0
-var temp = document.getElementsByClassName("slide");
+var slideIndex = 0;
+var slides = document.getElementsByClassName("slide");
+var myTimer;
 
-function changeSlide(index){
-    for(var i = 0;i<temp.length;i++){
-        temp[i].style.display="none";
+window.addEventListener("load",function(){
+    showSlides(slideIndex);
+    myTimer = setInterval(function(){
+        plusSlides(1)
+    },5000);
+})
+
+function plusSlides(n){
+    clearInterval(myTimer);
+    if(n<0){
+        showSlides(slideIndex -= 1);
+    }else{
+        showSlides(slideIndex += 1);
     }
-    temp[index].style.display=null;
+    myTimer=setInterval(function(){
+        plusSlides(1);
+    },5000);
 }
 
-function nextSlide(){
-    slideIndex++;
-    if(slideIndex == temp.length){
-        slideIndex=0
+function showSlides(idx){
+    if(idx===slides.length){slideIndex = 0}
+    if(idx<0){slideIndex=slides.length-1}
+    console.log(slideIndex);
+    for (let index = 0; index < slides.length; index++) {
+        slides[index].style.display="none";
     }
-    changeSlide(slideIndex);
-}
-
-function prevSlide(){
-    slideIndex--;
-    if(slideIndex < 0){
-        slideIndex=temp.length-1;
-    }
-    changeSlide(slideIndex);
+    slides[slideIndex].style.display=null;
 }

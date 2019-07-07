@@ -16,7 +16,7 @@ const Data = [{
     text:"BEM Fasilkom UI",
     class:"py-2",
     logo:"../Asset Info Fasilkom/Logo Kepanitiaan/Logo Kepanitiaan/BO/1x/BEMCS.png",
-    paragraph:"BEM Fasilkom UI adalah sebuah organisasi kemahasiswaan yang nantinya akan menjadi wadah aktualisasi mahasiswa untuk memaksimalkan potensi minat dan bakat mahasiswa, serta menjadi motor penggerak yang akan merealisasikan tri dharma perguruan tinggi yang akan bergerak sesuai dengan aturan dan hal kultural di Fasilkom UI.",
+    paragraph:"BEM (Badan Eksekutif Mahasiswa) Fasilkom UI adalah badan eksekutif mahasiswa tingkat fakultas yang berada di Fakultas Ilmu Komputer UI. BEM Fasilkom UI. memiliki tugas dan wewenang untuk menjalankan peran eksekutif dalam lingkungan Fasilkom UI. Kegiatan yang diadakan oleh BEM haruslah memenuhi tridharma perguruan tinggi, serta pengimplementasian IT. BEM Fasilkom UI memiliki enam bidang, yaitu bidang relasi, internal, keuangan, kesejahteraan mahasiswa, minat bakat, dan sosial politik, serta satu kontrol internal.",
     sosmed:{
         ig:"bemfasilkomui",
         website:"bem.cs.ui.ac.id",
