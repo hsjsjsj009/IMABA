@@ -1,15 +1,15 @@
 const DataBudaya = [
     [
         "5S (Senyum Sapa Salam Sopan Santun)",
-        "Jadi di Fasilkom itu, kita punya budaya 5S yaitu Senyum Salam Sapa Sopan Santun! Kita menerapkan 5S ini kepada seluruh elemen Fasilkom mulai dari sesama teman kita, dosen, pedagang kantin, janitor, sampai elemen lain di Fasilkom agar rasa kekeluargaan antar warga Fasilkom semakin erat."
+        "Di Fasilkom, kita punya budaya 5S yaitu Senyum Salam Sapa Sopan Santun. Nah 5S ini kita terapkan kepada seluruh elemen Fasilkom mulai dari sesama mahasiswa, dosen, pedagang kantin, janitor, sampai elemen lain di Fasilkom agar rasa kekeluargaan antar warga Fasilkom semakin erat."
 ],
     [
         "Meja Biru",
-        "Di gedung Fasilkom lama, kita disediakan beberapa meja biru yang tersebar di gedung Fasilkom yang berfungsi untuk tempat kita menaruh piring dan gelas kotor sesudah kita makan. Setelah itu, semua piring dan gelas kotor akan dibersihkan oleh elemen kantin."
+        "Di gedung Fasilkom lama, ada beberapa meja biru yang tersebar di gedung Fasilkom. Nah setelah makan, kita tinggal menaruh piring dan gelas kotor kita di meja biru tersebut dan nanti elemen kantin akan membersihkannya."
 ],
     [
         "Tidak Ada Laptop di Kantin",
-        "Mulai dari jam 11 siang sampai jam 1 siang, tidak boleh ada laptop di meja kantin Khusus di kantin Fasilkom, mulai dari jam 11 siang sampai jam 1 siang, dilarang membuka laptop di meja kantin. Nah, tujuannya untuk memberikan tempat untuk orang yang mau makan."
+        "Khusus di kantin Fasilkom, mulai dari jam 11 siang sampai jam 1 siang, dilarang membuka laptop di meja kantin. Nah, tujuannya itu untuk memberikan tempat bagi orang yang mau makan."
 ],
     [
         "Silent Three",
