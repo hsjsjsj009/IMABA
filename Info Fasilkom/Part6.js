@@ -12,7 +12,7 @@ const DataSlideShow =[{
     img:"../Asset Info Fasilkom/FunFact-Wifi.svg"
 },{
     text:"Satu-satunya gedung di UI yang bentuknya bundar hanya Fasilkom lohh! Gedung fasilkom juga terletak di tengah-tengah UI dan letaknya sangat strategis kalo mau kemana-mana.",
-    img:"../Asset Info Fasilkom/Peta/Gedung Lama/Bentuk Gedung.png"
+    img:"../Asset Info Fasilkom/Peta/Gedung Lama/300ppi/Asset 14.png"
 },{
     text:"Kamu pengen nyobain fastfood di UI? Cuma di Fasilkom kamu ngga usah jauh-jauh mau makan enak soalnya di UI yang punya Yoshinoya cuma Fasilkom loh!.",
     img:"../Asset Info Fasilkom/FunFact-Yoshinoya.jpg"
