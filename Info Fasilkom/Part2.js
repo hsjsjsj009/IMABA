@@ -53,7 +53,7 @@ const OldBuilding = [{
         "6 : Dinding Bata",
         "7 : Tenda Putih",
         "8 : Fotokopi Senyum",
-        "9 : Parkiran Mobil (Parbel)"
+        "9 : Parkiran Mobil (Parkiran Belakang)"
     ],
     spcPlace:true
 },{
