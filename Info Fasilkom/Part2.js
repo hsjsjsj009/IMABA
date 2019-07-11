@@ -1,5 +1,5 @@
 let state = {
-    partActive:"old",
+    partActive:"new",
     indexActive:0
 }
 
