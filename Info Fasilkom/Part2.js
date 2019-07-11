@@ -92,9 +92,9 @@ const OldBuilding = [{
     square:true,
     desc:[
         "1 : Sekretariat Fasilkom",
-        "4 : Mushola Laki-laki",
         "2 : Sekre Square",
         "3 : Kafe Sekre",
+        "4 : Mushola Laki-laki",
         "5 : Mushola Perempuan",
         "6 : Ruang BEM",
         "7 : Ruang RISTEK"
