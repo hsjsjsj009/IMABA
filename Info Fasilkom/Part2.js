@@ -79,7 +79,7 @@ const OldBuilding = [{
         "2101 : Aula",
         "2102 : Gudang Aula (Gudal)",
         "1 : Quiet Room (di lantai 2 Perpustakaan)",
-        "2 : Perpus Atas (Lantai 2 Perpistakaan)",
+        "2 : Perpus Atas (Lantai 2 Perpustakaan)",
         "3 : Perpustakaan Fasilkom (Perpucil)",
         "4 : Perpus Bawah",
         "5 : Mebu"
@@ -96,7 +96,8 @@ const OldBuilding = [{
         "2 : Sekre Square",
         "3 : Kafe Sekre",
         "5 : Mushola Perempuan",
-        "6 : Ruang BEM"
+        "6 : Ruang BEM",
+        "7 : Ruang RISTEK"
     ],
     spcPlace:true
 },{
@@ -146,6 +147,7 @@ const OldBuilding = [{
         "3111-3114 : Kelas",
         "1 : Kantin",
         "2 : Kantiv (Kantin TV)",
+        "3 : ATM BNI",
         "4 : BelYos (Belakang Yoshinoya)",
         "5 : Yoshinoya",
         "<br>",

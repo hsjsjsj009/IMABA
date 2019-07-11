@@ -159,10 +159,10 @@ Data.forEach(element => {
             info.style.display="none";
         }
         let logoCont = document.createElement('div');
-        logoCont.classList.add("col-md-4","m-3","logo");
+        logoCont.classList.add("col-md-4","m-3","logo","align-self-center");
         logoCont.appendChild(image);
         let paragraphCont = document.createElement('div');
-        paragraphCont.classList.add("col-md","m-3","p-3","text");
+        paragraphCont.classList.add("col-md","m-3","p-3","text","align-self-center");
         paragraphCont.appendChild(paragraph);
         paragraphCont.appendChild(sosmed);
         info.appendChild(logoCont);
