@@ -78,8 +78,8 @@ h1{
 }
 
 h2,h3{
-    font-family: 'Nunito SemiBold',sans-serif;
-    font-weight: bold;
+    font-family: 'Nunito',sans-serif;
+    font-weight: 600;
 }
 
 button:focus,button:active{
@@ -153,7 +153,7 @@ body{
 
 @media(max-width:900px){
     .dummy:before{
-        content: "Scroll Ke Kanan";
+        content: "Geser Ke Kanan";
         font-size: 26px;
     }
     #menu .menu h2{
@@ -183,10 +183,11 @@ body{
     }
     #menu .menu{
         margin-right: 20px;
+        height: 70px;
     }
 
-    #menu .menu h2{
-        font-size: 20px;    
+    #menu .menu h3{
+        font-size: 18pt;    
     }
 
 

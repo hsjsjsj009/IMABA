@@ -34,12 +34,6 @@ DataSlideShow.forEach(obj => {
     slideCont.className="row justify-content-center align-self-center slide py-4 fadein";
     slideCont.appendChild(image);
     slideCont.appendChild(text);
-    // if(index == 0){
-    //     slideCont.style.display=null;
-    // }else{
-    //     slideCont.style.display="none";
-    // }
-    // index++;
     sliderCont.appendChild(slideCont);
 })
 
@@ -53,7 +47,7 @@ window.addEventListener("load",function(){
     showSlides(slideIndex);
     myTimer = setInterval(function(){
         plusSlides(1)
-    },5000);
+    },15000);
 })
 
 function plusSlides(n){
@@ -65,7 +59,7 @@ function plusSlides(n){
     }
     myTimer=setInterval(function(){
         plusSlides(1);
-    },5000);
+    },15000);
 }
 
 function showSlides(idx){

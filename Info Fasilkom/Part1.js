@@ -108,10 +108,9 @@ let menuComp = document.createDocumentFragment();
 let infoComp = document.createDocumentFragment();
 Data.forEach(element => {
     // Menu Component
-        let text = document.createElement('h2');
+        let text = document.createElement('h3');
         text.innerHTML=element.text;
         text.setAttribute('class',element.class);
-        text.style.fontSize="22pt";
         let menu = document.createElement('div');
         menu.setAttribute('id',element.id);
         if(element.active){
