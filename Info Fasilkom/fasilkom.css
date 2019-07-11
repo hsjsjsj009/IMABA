@@ -267,6 +267,9 @@ button{
 }
 
 @media(max-width:500px){
+    .map-button h2{
+        font-size: 20pt;
+    }
     #part1 .dummy::before{
         content: "Geser Ke kanan";
         font-size: 24px;
@@ -339,6 +342,9 @@ button{
     }
     .slider{
         height: 90%;
+    }
+    #slide-prev:hover,#slide-next:hover{
+        transform: translate3d(0,0,0);
     }
 
 }
