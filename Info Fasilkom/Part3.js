@@ -21,7 +21,7 @@ const DataBudaya = [
     ],
     [
         "Dilarang merokok",
-        "Seluruh area di Fasilkom tidak memperbolehkan mahasiswa dan elemen Fasilkom untuk tidak merokok baik di kelas, kantin, dan lingkungan sekitar Fasilkom."
+        "Seluruh area di Fasilkom tidak memperbolehkan mahasiswa dan elemen Fasilkom untuk merokok baik di kelas, kantin, dan lingkungan sekitar Fasilkom."
     ]
 ];
 
