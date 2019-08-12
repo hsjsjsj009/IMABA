@@ -32,7 +32,8 @@ const NewBuilding =[{
     desc:[
         "A : Belakang Auditorium (Beldit)",
         "A2.06 - A2.09 : Kelas",
-        "A2.01 : Auditorium"
+        "A2.01 : Auditorium",
+        "Pagur : Papan Nganggur"
     ],
     spcPlace:true
 }]
@@ -260,6 +261,7 @@ function changeBuilding(obj){
     state.partActive = obj.id;
     obj.classList.add("btn-active");
     changeMap(0);
+    state.indexActive = 0;
 }
 
 changeMap(0);
