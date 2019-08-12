@@ -1,5 +1,5 @@
 let state = {
-    partActive:"new",
+    partActive:"old",
     indexActive:0
 }
 
@@ -21,8 +21,7 @@ const NewBuilding =[{
     square:true,
     desc:[
         "A1.01 - A1.03 : Kelas",
-        "A1.04 : Lab Komputer",
-        "Balkon : Palkon (Pacil Balkon)"
+        "A1.04 : Lab Komputer"
     ],
     spcPlace:true
 },{
