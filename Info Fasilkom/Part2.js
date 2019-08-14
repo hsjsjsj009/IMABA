@@ -154,7 +154,6 @@ const OldBuilding = [{
         "Lantai 2-3 :",
         "Ruang Dosen",
         "Ruang Kelas",
-        "Microsoft Innovation Center",
         "Lab. Komputer"
     ],
     spcPlace:true
